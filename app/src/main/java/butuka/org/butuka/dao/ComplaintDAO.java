@@ -1,6 +1,7 @@
 package butuka.org.butuka.dao;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
@@ -54,6 +55,7 @@ public class ComplaintDAO implements IComplaintDAO {
                         @Override
                         public void onResponse(String response) {
                             result.onSuccess(response);
+                            Log.i(TAG, "Response: " + response);
                         }
                     },
                     new Response.ErrorListener() {

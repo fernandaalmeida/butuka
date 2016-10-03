@@ -32,7 +32,7 @@ public class Constants {
         String DATE_KEY = "date";
         String TIME_KEY = "time";
         String VIOLATOR_KEY = "violator";
-        String DESCRIPTION_KEY = "violator";
+        String DESCRIPTION_KEY = "description";
         String IMAGE_KEY = "image";
         String MIME_KEY = "image-mime";
     }
