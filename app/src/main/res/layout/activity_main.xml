@@ -1,120 +1,37 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@mipmap/bg"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <ImageView
         android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/logo"
+        android:layout_centerHorizontal="true"
         android:contentDescription="application_logo"
         android:paddingTop="20dp"
-        android:layout_centerHorizontal="true"
-        />
+        android:src="@mipmap/logo" />
 
-    <Button android:background="#d72446"
-    android:id="@+id/denuncieBt"
-    android:textColor="#FFF"
-    android:layout_marginTop="50dp"
-    android:layout_width="200dp"
-    android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-    android:text="Faça sua denúncia"
-    android:layout_below="@id/logo"/>
-
-    <Button android:background="@drawable/direitos_bg"
-        android:id="@+id/direitosBt"
-        android:textColor="#FFF"
-        android:layout_marginTop="20dp"
+    <Button
+        android:id="@+id/denuncieBt"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#d72446"
+        android:text="Faça sua denúncia"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/returnBt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/denuncieBt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/direitos_bg"
         android:text="Conheça seus direitos"
-        android:layout_below="@id/denuncieBt"/>
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"></LinearLayout>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textColor="#fff"
-        android:layout_marginBottom="5dp"
-        android:id="@+id/sigilo"
-        android:gravity="center_horizontal|bottom"
-        android:text="Todos os dados deste aplicativo são sigilosos"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textColor="#fff"
-        android:gravity="center_horizontal|bottom"
-        android:layout_below="@+id/sigilo"
-        android:text="Confira nossos termos de uso"/>
+        android:textColor="#FFF" />
 </RelativeLayout>
-<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
-    <!--xmlns:tools="http://schemas.android.com/tools"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:background="@mipmap/bg"-->
-    <!--tools:context="butuka.org.butuka.MainActivity">-->
-
-    <!--&lt;!&ndash; The primary full-screen view. This can be replaced with whatever view-->
-         <!--is needed to present your content, e.g. VideoView, SurfaceView,-->
-         <!--TextureView, etc. &ndash;&gt;-->
-
-    <!--<LinearLayout android:orientation="vertical"-->
-        <!--android:id="@+id/logoll"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:gravity="center_horizontal"-->
-
-        <!--android:keepScreenOn="true" >-->
-
-        <!--<ImageView android:background="@mipmap/logo"-->
-            <!--android:id="@+id/fullscreen_content"-->
-            <!--android:layout_marginTop="50dp"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"/>-->
-
-        <!--</LinearLayout>-->
-    <!--&lt;!&ndash; This FrameLayout insets its children based on system windows using-->
-         <!--android:fitsSystemWindows. &ndash;&gt;-->
-    <!--&lt;!&ndash;<FrameLayout&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:fitsSystemWindows="true">&ndash;&gt;-->
-
-        <!--<LinearLayout-->
-            <!--android:id="@+id/fullscreen_content_controls"-->
-            <!--style="?metaButtonBarStyle"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:layout_gravity="bottom|center_horizontal"-->
-            <!--android:background="@color/black_overlay"-->
-            <!--android:orientation="horizontal"-->
-            <!--tools:ignore="UselessParent">-->
-
-            <!--<Button-->
-                <!--android:id="@+id/dummy_button"-->
-                <!--style="?metaButtonBarButtonStyle"-->
-                <!--android:layout_width="0dp"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_weight="1"-->
-                <!--android:text="@string/dummy_button" />-->
-
-        <!--</LinearLayout>-->
-
-
-    <!--&lt;!&ndash;</FrameLayout>&ndash;&gt;-->
-    <!--<Button android:background="#d72446"-->
-        <!--android:id="@+id/denuncieBt"-->
-        <!--android:textColor="#FFF"-->
-        <!--android:marginTop="100dp"-->
-        <!--android:layout_width="200dp"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_weight="1"-->
-        <!--android:text="Faça uma denúncia"-->
-        <!--android:layout_alignBottom="@id/logoll"/>-->
-<!--</RelativeLayout>-->
