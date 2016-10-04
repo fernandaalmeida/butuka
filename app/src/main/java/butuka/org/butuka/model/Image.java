@@ -60,7 +60,7 @@ public class Image {
         }
     }
 
-    public void isNull() {
+    public void destroy() {
         this.mime = null;
         this.bitmap = null;
     }

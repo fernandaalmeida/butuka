@@ -74,14 +74,14 @@ public class ComplaintActivity extends AppCompatActivity {
                     @Override
                     public void result(String s) {
                         mProgressBar.setVisibility(View.GONE);
-                        complaint.isNull();
+                        complaint.destroy();
                         startActivity(new Intent(ComplaintActivity.this, ResultActivity.class));
                     }
 
                     @Override
                     public void onFailed(Exception e) {
                         Utils.showMessage(ComplaintActivity.this, e.getMessage());
-                        complaint.isNull();
+                        complaint.destroy();
                         mProgressBar.setVisibility(View.GONE);
                     }
                 });

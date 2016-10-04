@@ -45,14 +45,9 @@ public class Complaint {
         return map;
     }
 
-    public void isNull() {
-        /*this.location = null;
-        this.date = null;
-        this.time = null;
-        this.violator = null;
-        this.description = null;*/
+    public void destroy() {
         instance = null;
-        this.image.isNull();
+        this.image = null;
     }
 
     public String getLocation() {
