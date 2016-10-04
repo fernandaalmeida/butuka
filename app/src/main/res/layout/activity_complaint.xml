@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     tools:context="butuka.org.butuka.activity.ComplaintActivity">
 
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

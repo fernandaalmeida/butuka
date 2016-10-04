@@ -12,6 +12,7 @@ import android.view.View;
 import android.webkit.MimeTypeMap;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 
 import java.io.IOException;
@@ -36,6 +37,7 @@ public class ComplaintActivity extends AppCompatActivity {
     private RelativeLayout mAddPhotoBt;
     private RelativeLayout mSendBtn;
     private ImageView mSelectedIV;
+    private ProgressBar mProgressBar;
 
     private ComplaintController mComplaintController;
     private Image mImage;
@@ -58,6 +60,8 @@ public class ComplaintActivity extends AppCompatActivity {
         mSendBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                mProgressBar.setVisibility(View.VISIBLE);
+
                 Complaint complaint = new Complaint();
                 complaint.setLocation(mLocationEdt.getText().toString());
                 complaint.setDate(mDateEdt.getText().toString());
@@ -69,12 +73,14 @@ public class ComplaintActivity extends AppCompatActivity {
                 mComplaintController.sendComplaint(complaint, new AbstractResult() {
                     @Override
                     public void onSuccess(String s) {
+                        mProgressBar.setVisibility(View.GONE);
                         startActivity(new Intent(ComplaintActivity.this, ResultActivity.class));
                     }
 
                     @Override
                     public void onFailed(Exception e) {
                         Utils.showMessage(ComplaintActivity.this, e.getMessage());
+                        mProgressBar.setVisibility(View.GONE);
                     }
                 });
             }
@@ -90,6 +96,7 @@ public class ComplaintActivity extends AppCompatActivity {
         mSendBtn = (RelativeLayout) findViewById(R.id.sendBt);
         mAddPhotoBt = (RelativeLayout) findViewById(R.id.addPhotoBt);
         mSelectedIV = (ImageView) findViewById(R.id.selectedIv);
+        mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
 
         mComplaintController = new ComplaintController(this);
         mImage = new Image();
