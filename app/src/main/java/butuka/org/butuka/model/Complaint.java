@@ -1,7 +1,5 @@
 package butuka.org.butuka.model;
 
-import android.util.Base64;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -12,6 +10,7 @@ import butuka.org.butuka.constant.Constants;
  */
 
 public class Complaint {
+    private static volatile Complaint instance;
     private String location;
     private String date;
     private String time;
@@ -19,17 +18,19 @@ public class Complaint {
     private String description;
     private Image image;
 
-    public Complaint() {
+    private Complaint() {
 
     }
 
-    public Complaint(String location, String date, String time, String violator, String description, Image image) {
-        this.location = location;
-        this.date = date;
-        this.time = time;
-        this.violator = violator;
-        this.description = description;
-        this.image = image;
+    public static Complaint getInstance() {
+        if (instance == null) {
+            synchronized (Complaint.class) {
+                if (instance == null) {
+                    instance = new Complaint();
+                }
+            }
+        }
+        return instance;
     }
 
     public Map<String, String> toHashMap() {
@@ -42,6 +43,16 @@ public class Complaint {
         map.put(Constants.KEYS.IMAGE_KEY, image.toBase64());
         map.put(Constants.KEYS.MIME_KEY, image.getMime());
         return map;
+    }
+
+    public void isNull() {
+        /*this.location = null;
+        this.date = null;
+        this.time = null;
+        this.violator = null;
+        this.description = null;*/
+        instance = null;
+        this.image.isNull();
     }
 
     public String getLocation() {

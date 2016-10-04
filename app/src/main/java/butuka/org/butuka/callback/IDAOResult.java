@@ -1,9 +1,10 @@
 package butuka.org.butuka.callback;
 
 /**
- * Created by iagobelo on 22/06/16.
+ * Created by iagobelo on 28/09/2016.
  */
-public interface IStringResult {
+
+public interface IDAOResult {
     void onSuccess(String s);
 
     void onFailed(Exception e);

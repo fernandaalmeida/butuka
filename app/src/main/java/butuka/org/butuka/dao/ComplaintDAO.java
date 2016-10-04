@@ -13,7 +13,7 @@ import com.android.volley.toolbox.Volley;
 
 import java.util.Map;
 
-import butuka.org.butuka.callback.AbstractResult;
+import butuka.org.butuka.callback.IDAOResult;
 import butuka.org.butuka.constant.Constants;
 import butuka.org.butuka.exception.NetworkNotFoundException;
 import butuka.org.butuka.model.Complaint;
@@ -48,7 +48,7 @@ public class ComplaintDAO implements IComplaintDAO {
     }
 
     @Override
-    public void insertComplaint(final Complaint complaint, final AbstractResult result) {
+    public void insertComplaint(final Complaint complaint, final IDAOResult result) {
         if (Utils.checkConnection(mContext)) {
             mStringRequest = new StringRequest(Request.Method.POST, Constants.URLS.WEB_SERVICE_URL,
                     new Response.Listener<String>() {

@@ -1,6 +1,6 @@
 package butuka.org.butuka.dao;
 
-import butuka.org.butuka.callback.AbstractResult;
+import butuka.org.butuka.callback.IDAOResult;
 import butuka.org.butuka.model.Complaint;
 
 /**
@@ -8,5 +8,5 @@ import butuka.org.butuka.model.Complaint;
  */
 
 public interface IComplaintDAO {
-    void insertComplaint(Complaint complaint, AbstractResult abstractResult);
+    void insertComplaint(Complaint complaint, IDAOResult IDAOResult);
 }

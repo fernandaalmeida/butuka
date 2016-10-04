@@ -14,7 +14,11 @@ public class Image {
     private Bitmap bitmap;
 
     public String getMime() {
-        return mime;
+        if (mime != null) {
+            return mime;
+        } else {
+            return "null";
+        }
     }
 
     public void setMime(String mime) {
@@ -54,5 +58,10 @@ public class Image {
         } else {
             return "null";
         }
+    }
+
+    public void isNull() {
+        this.mime = null;
+        this.bitmap = null;
     }
 }

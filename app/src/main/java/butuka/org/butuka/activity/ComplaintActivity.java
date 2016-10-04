@@ -18,7 +18,7 @@ import android.widget.RelativeLayout;
 import java.io.IOException;
 
 import butuka.org.butuka.R;
-import butuka.org.butuka.callback.AbstractResult;
+import butuka.org.butuka.callback.IResult;
 import butuka.org.butuka.controller.ComplaintController;
 import butuka.org.butuka.model.Complaint;
 import butuka.org.butuka.model.Image;
@@ -62,7 +62,7 @@ public class ComplaintActivity extends AppCompatActivity {
             public void onClick(View v) {
                 mProgressBar.setVisibility(View.VISIBLE);
 
-                Complaint complaint = new Complaint();
+                final Complaint complaint = Complaint.getInstance();
                 complaint.setLocation(mLocationEdt.getText().toString());
                 complaint.setDate(mDateEdt.getText().toString());
                 complaint.setTime(mTimeEdt.getText().toString());
@@ -70,16 +70,18 @@ public class ComplaintActivity extends AppCompatActivity {
                 complaint.setDescription(mDescriptionEdt.getText().toString());
                 complaint.setImage(mImage);
 
-                mComplaintController.sendComplaint(complaint, new AbstractResult() {
+                mComplaintController.sendComplaint(complaint, new IResult() {
                     @Override
-                    public void onSuccess(String s) {
+                    public void result(String s) {
                         mProgressBar.setVisibility(View.GONE);
+                        complaint.isNull();
                         startActivity(new Intent(ComplaintActivity.this, ResultActivity.class));
                     }
 
                     @Override
                     public void onFailed(Exception e) {
                         Utils.showMessage(ComplaintActivity.this, e.getMessage());
+                        complaint.isNull();
                         mProgressBar.setVisibility(View.GONE);
                     }
                 });

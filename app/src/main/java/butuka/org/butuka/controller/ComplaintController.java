@@ -2,7 +2,8 @@ package butuka.org.butuka.controller;
 
 import android.content.Context;
 
-import butuka.org.butuka.callback.AbstractResult;
+import butuka.org.butuka.callback.IDAOResult;
+import butuka.org.butuka.callback.IResult;
 import butuka.org.butuka.dao.ComplaintDAO;
 import butuka.org.butuka.dao.IComplaintDAO;
 import butuka.org.butuka.exception.NetworkNotFoundException;
@@ -19,12 +20,12 @@ public class ComplaintController {
         mComplaintDAO = ComplaintDAO.getInstance(context);
     }
 
-    public void sendComplaint(Complaint complaint, final AbstractResult result) {
-        mComplaintDAO.insertComplaint(complaint, new AbstractResult() {
+    public void sendComplaint(Complaint complaint, final IResult result) {
+        mComplaintDAO.insertComplaint(complaint, new IDAOResult() {
             @Override
             public void onSuccess(String s) {
-                if (s.equalsIgnoreCase("1")) {
-                    result.onSuccess("Denuncia enviada com sucesso!");
+                if (s.equals("1")) {
+                    result.result("Denuncia enviada com sucesso!");
                 } else {
                     result.onFailed(new NetworkNotFoundException("Falha ao enviar a denuncia."));
                 }
