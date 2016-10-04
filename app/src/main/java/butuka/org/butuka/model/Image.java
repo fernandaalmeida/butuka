@@ -34,17 +34,25 @@ public class Image {
         this.bitmap = bitmap;
     }
 
+    /**
+     * Converte a imagem de bytes para base64.
+     *
+     * @return String em base64.
+     */
     public String toBase64() {
         ByteArrayOutputStream stream = new ByteArrayOutputStream();
 
-        if (mime.equalsIgnoreCase("png")) {
-            bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
-        } else if (mime.equalsIgnoreCase("jpg")) {
-            bitmap.compress(Bitmap.CompressFormat.JPEG, 100, stream);
+        if (bitmap != null && mime != null) {
+            if (mime.equalsIgnoreCase("png")) {
+                bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
+            } else if (mime.equalsIgnoreCase("jpg")) {
+                bitmap.compress(Bitmap.CompressFormat.JPEG, 100, stream);
+            }
+            byte[] bytes = stream.toByteArray();
+
+            return Base64.encodeToString(bytes, Base64.DEFAULT);
         } else {
-            bitmap.compress(Bitmap.CompressFormat.JPEG, 100, stream);
+            return "null";
         }
-        byte[] bytes = stream.toByteArray();
-        return Base64.encodeToString(bytes, Base64.DEFAULT);
     }
 }
