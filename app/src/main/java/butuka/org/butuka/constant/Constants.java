@@ -9,14 +9,6 @@ public class Constants {
     private Constants() {
     }
 
-    public interface Error {
-
-        /**
-         * Menssagens de erro.
-         */
-        String NO_NETWORK = "Não foi possível acessar a rede!";
-    }
-
     public interface URLS {
         /**
          * Service
@@ -35,5 +27,15 @@ public class Constants {
         String DESCRIPTION_KEY = "description";
         String IMAGE_KEY = "image";
         String MIME_KEY = "image-mime";
+    }
+
+    public interface MESSAGES {
+        String SUCCESS = "Denuncia enviada com sucesso!";
+
+        /**
+         * Menssagens de erro.
+         */
+        String NO_NETWORK = "Não foi possível acessar a rede!";
+        String FAILED = "Falha ao enviar denuncia, tente novamente!";
     }
 }

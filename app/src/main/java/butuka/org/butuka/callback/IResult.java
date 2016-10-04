@@ -7,7 +7,7 @@ import butuka.org.butuka.exception.NetworkNotFoundException;
  */
 
 public interface IResult {
-    void result(String s);
+    void success();
 
-    void onFailed(Exception e);
+    void onFailed(String s);
 }

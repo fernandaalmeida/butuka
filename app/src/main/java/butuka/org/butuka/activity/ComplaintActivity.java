@@ -40,6 +40,7 @@ public class ComplaintActivity extends AppCompatActivity {
     private ProgressBar mProgressBar;
 
     private ComplaintController mComplaintController;
+    private Complaint mComplaint;
     private Image mImage;
 
     @Override
@@ -62,26 +63,25 @@ public class ComplaintActivity extends AppCompatActivity {
             public void onClick(View v) {
                 mProgressBar.setVisibility(View.VISIBLE);
 
-                final Complaint complaint = Complaint.getInstance();
-                complaint.setLocation(mLocationEdt.getText().toString());
-                complaint.setDate(mDateEdt.getText().toString());
-                complaint.setTime(mTimeEdt.getText().toString());
-                complaint.setViolator(mViolatorEdt.getText().toString());
-                complaint.setDescription(mDescriptionEdt.getText().toString());
-                complaint.setImage(mImage);
+                mComplaint.setLocation(mLocationEdt.getText().toString());
+                mComplaint.setDate(mDateEdt.getText().toString());
+                mComplaint.setTime(mTimeEdt.getText().toString());
+                mComplaint.setViolator(mViolatorEdt.getText().toString());
+                mComplaint.setDescription(mDescriptionEdt.getText().toString());
+                mComplaint.setImage(mImage);
 
-                mComplaintController.sendComplaint(complaint, new IResult() {
+                mComplaintController.sendComplaint(mComplaint, new IResult() {
                     @Override
-                    public void result(String s) {
+                    public void success() {
                         mProgressBar.setVisibility(View.GONE);
-                        complaint.destroy();
+                        mComplaint.destroy();
                         startActivity(new Intent(ComplaintActivity.this, ResultActivity.class));
                     }
 
                     @Override
-                    public void onFailed(Exception e) {
-                        Utils.showMessage(ComplaintActivity.this, e.getMessage());
-                        complaint.destroy();
+                    public void onFailed(String s) {
+                        Utils.showMessage(ComplaintActivity.this, s);
+                        mComplaint.destroy();
                         mProgressBar.setVisibility(View.GONE);
                     }
                 });
@@ -101,6 +101,7 @@ public class ComplaintActivity extends AppCompatActivity {
         mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
 
         mComplaintController = new ComplaintController(this);
+        mComplaint = Complaint.getInstance();
         mImage = new Image();
     }
 
@@ -126,6 +127,7 @@ public class ComplaintActivity extends AppCompatActivity {
                     MimeTypeMap mime = MimeTypeMap.getSingleton();
                     String type = mime.getExtensionFromMimeType(cR.getType(selectedImage));
                     mImage.setMime(type);
+
                     Log.i(TAG, "Mime: " + type);
 
                     // Infla o imageView com a imagem selecionada na galeria.

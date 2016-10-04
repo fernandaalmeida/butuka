@@ -48,9 +48,9 @@ public class Image {
 
         if (bitmap != null && mime != null) {
             if (mime.equalsIgnoreCase("png")) {
-                bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
+                bitmap.compress(Bitmap.CompressFormat.PNG, 80, stream);
             } else if (mime.equalsIgnoreCase("jpg")) {
-                bitmap.compress(Bitmap.CompressFormat.JPEG, 100, stream);
+                bitmap.compress(Bitmap.CompressFormat.JPEG, 80, stream);
             }
             byte[] bytes = stream.toByteArray();
 

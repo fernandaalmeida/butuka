@@ -73,7 +73,7 @@ public class ComplaintDAO implements IComplaintDAO {
             };
             mRequestQueue.add(mStringRequest);
         } else {
-            result.onFailed(new NetworkNotFoundException(Constants.Error.NO_NETWORK));
+            result.onFailed(new NetworkNotFoundException(Constants.MESSAGES.NO_NETWORK));
         }
     }
 }
