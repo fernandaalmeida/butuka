@@ -14,7 +14,7 @@ public class Constants {
         /**
          * Menssagens de erro.
          */
-        public static final String NO_NETWORK = "Não foi possível acessar a rede!";
+        String NO_NETWORK = "Não foi possível acessar a rede!";
     }
 
     public interface URLS {
