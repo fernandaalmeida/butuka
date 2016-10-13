@@ -61,7 +61,6 @@ public class ComplaintDAO implements IComplaintDAO {
                     new Response.ErrorListener() {
                         @Override
                         public void onErrorResponse(VolleyError error) {
-                            error.printStackTrace();
                             result.onFailed(error);
                         }
                     }

@@ -14,6 +14,7 @@ public class Constants {
          * Service
          */
         String WEB_SERVICE_URL = "http://outthere.esy.es/butuka/service.php";
+        String WEB_SERVICE_LOCAL_URL = "http://192.168.25.221/butuka/service.php";
     }
 
     public interface KEYS {

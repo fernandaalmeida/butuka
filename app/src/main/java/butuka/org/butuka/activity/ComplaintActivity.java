@@ -2,12 +2,9 @@ package butuka.org.butuka.activity;
 
 import android.content.ContentResolver;
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.webkit.MimeTypeMap;
 import android.widget.EditText;
@@ -15,16 +12,21 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 
+import com.squareup.picasso.Picasso;
+
 import java.io.IOException;
+import java.io.InputStream;
 
 import butuka.org.butuka.R;
 import butuka.org.butuka.callback.IResult;
 import butuka.org.butuka.controller.ComplaintController;
 import butuka.org.butuka.model.Complaint;
 import butuka.org.butuka.model.Image;
+import butuka.org.butuka.util.LightEncode;
 import butuka.org.butuka.util.Utils;
 
 public class ComplaintActivity extends AppCompatActivity {
+    // Constants da classe
     private static final int INTERNAL_IMAGE = 10;
     private static final String TAG = "ComplaintActivityLog";
 
@@ -58,11 +60,21 @@ public class ComplaintActivity extends AppCompatActivity {
             }
         });
 
+        mSelectedIV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mSelectedIV.setVisibility(View.GONE);
+                mSelectedIV.destroyDrawingCache();
+                mImage = null;
+            }
+        });
+
         mSendBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mProgressBar.setVisibility(View.VISIBLE);
 
+                mComplaint = new Complaint();
                 mComplaint.setLocation(mLocationEdt.getText().toString());
                 mComplaint.setDate(mDateEdt.getText().toString());
                 mComplaint.setTime(mTimeEdt.getText().toString());
@@ -74,14 +86,12 @@ public class ComplaintActivity extends AppCompatActivity {
                     @Override
                     public void success() {
                         mProgressBar.setVisibility(View.GONE);
-                        mComplaint.destroy();
                         startActivity(new Intent(ComplaintActivity.this, ResultActivity.class));
                     }
 
                     @Override
                     public void onFailed(String s) {
                         Utils.showMessage(ComplaintActivity.this, s);
-                        mComplaint.destroy();
                         mProgressBar.setVisibility(View.GONE);
                     }
                 });
@@ -101,8 +111,6 @@ public class ComplaintActivity extends AppCompatActivity {
         mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
 
         mComplaintController = new ComplaintController(this);
-        mComplaint = Complaint.getInstance();
-        mImage = new Image();
     }
 
     public void pickImageFromSDCard() {
@@ -117,21 +125,21 @@ public class ComplaintActivity extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
 
                 Uri selectedImage = data.getData();
-
                 try {
-                    Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), selectedImage);
-                    mImage.setBitmap(bitmap);
+                    InputStream inputStream = getContentResolver().openInputStream(selectedImage);
+                    LightEncode lightEncode = new LightEncode(inputStream);
 
-                    // Pega a ext/ da imagem.
+                    mImage = new Image();
+                    mImage.setBase64Image(lightEncode.startEncode());
+
+                    // Pega a extensao da imagem.
                     ContentResolver cR = getContentResolver();
                     MimeTypeMap mime = MimeTypeMap.getSingleton();
                     String type = mime.getExtensionFromMimeType(cR.getType(selectedImage));
                     mImage.setMime(type);
 
-                    Log.i(TAG, "Mime: " + type);
-
                     // Infla o imageView com a imagem selecionada na galeria.
-                    mSelectedIV.setImageBitmap(bitmap);
+                    Picasso.with(this).load(selectedImage).resize(128, 128).into(mSelectedIV);
                     mSelectedIV.setVisibility(View.VISIBLE);
                 } catch (IOException e) {
                     e.printStackTrace();

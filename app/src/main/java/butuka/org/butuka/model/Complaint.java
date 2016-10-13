@@ -10,7 +10,6 @@ import butuka.org.butuka.constant.Constants;
  */
 
 public class Complaint {
-    private static volatile Complaint instance;
     private String location;
     private String date;
     private String time;
@@ -18,19 +17,8 @@ public class Complaint {
     private String description;
     private Image image;
 
-    private Complaint() {
+    public Complaint() {
 
-    }
-
-    public static Complaint getInstance() {
-        if (instance == null) {
-            synchronized (Complaint.class) {
-                if (instance == null) {
-                    instance = new Complaint();
-                }
-            }
-        }
-        return instance;
     }
 
     public Map<String, String> toHashMap() {
@@ -40,14 +28,15 @@ public class Complaint {
         map.put(Constants.KEYS.TIME_KEY, time);
         map.put(Constants.KEYS.VIOLATOR_KEY, violator);
         map.put(Constants.KEYS.DESCRIPTION_KEY, description);
-        map.put(Constants.KEYS.IMAGE_KEY, image.toBase64());
-        map.put(Constants.KEYS.MIME_KEY, image.getMime());
-        return map;
-    }
 
-    public void destroy() {
-        instance = null;
-        this.image = null;
+        if (image != null && image.getBase64Image() != null) {
+            map.put(Constants.KEYS.IMAGE_KEY, String.valueOf(image.getBase64Image()));
+            map.put(Constants.KEYS.MIME_KEY, image.getMime());
+        } else {
+            map.put(Constants.KEYS.IMAGE_KEY, "null");
+            map.put(Constants.KEYS.MIME_KEY, "null");
+        }
+        return map;
     }
 
     public String getLocation() {

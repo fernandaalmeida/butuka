@@ -35,6 +35,8 @@ public class ComplaintController {
 
             @Override
             public void onFailed(Exception e) {
+                e.printStackTrace();
+
                 if (e instanceof NetworkNotFoundException) {
                     result.onFailed(Constants.MESSAGES.NO_NETWORK);
                 } else {
