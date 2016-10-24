@@ -12,17 +12,17 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 
-import com.android.volley.VolleyError;
 import com.squareup.picasso.Picasso;
 
 import java.io.IOException;
 import java.io.InputStream;
 
 import butuka.org.butuka.R;
+import butuka.org.butuka.callback.OnCompleteListener;
 import butuka.org.butuka.controller.ComplaintController;
-import butuka.org.butuka.exception.NetworkNotFoundException;
 import butuka.org.butuka.model.Complaint;
-import butuka.org.butuka.model.Image;
+import butuka.org.butuka.model.Data;
+import butuka.org.butuka.model.Task;
 import butuka.org.butuka.util.LightEncode;
 import butuka.org.butuka.util.Utils;
 
@@ -44,7 +44,7 @@ public class ComplaintActivity extends AppCompatActivity {
 
     private ComplaintController mComplaintController;
     private Complaint mComplaint;
-    private Image mImage;
+    private Data mData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,7 +65,7 @@ public class ComplaintActivity extends AppCompatActivity {
             public void onClick(View v) {
                 mSelectedIV.setVisibility(View.GONE);
                 mSelectedIV.destroyDrawingCache();
-                mImage = null;
+                mData = null;
             }
         });
 
@@ -81,18 +81,20 @@ public class ComplaintActivity extends AppCompatActivity {
                 mComplaint.setTime(mTimeEdt.getText().toString());
                 mComplaint.setViolator(mViolatorEdt.getText().toString());
                 mComplaint.setDescription(mDescriptionEdt.getText().toString());
-                mComplaint.setImage(mImage);
+                mComplaint.setData(mData);
 
-                try {
-                    mComplaintController.sendComplaint(mComplaint);
-
-                    mProgressBar.setVisibility(View.GONE);
-                    startActivity(new Intent(ComplaintActivity.this, ResultActivity.class));
-                } catch (NetworkNotFoundException | VolleyError e) {
-                    e.printStackTrace();
-                    mProgressBar.setVisibility(View.GONE);
-                    Utils.showMessage(ComplaintActivity.this, e.getMessage());
-                }
+                mComplaintController.sendComplaint(mComplaint, new OnCompleteListener() {
+                    @Override
+                    public void onComplete(Task task) {
+                        if (task.isSuccessful()) {
+                            mProgressBar.setVisibility(View.GONE);
+                            startActivity(new Intent(ComplaintActivity.this, ResultActivity.class));
+                        } else {
+                            mProgressBar.setVisibility(View.GONE);
+                            Utils.showMessage(ComplaintActivity.this, task.getMessage());
+                        }
+                    }
+                });
             }
         });
     }
@@ -108,12 +110,12 @@ public class ComplaintActivity extends AppCompatActivity {
         mSelectedIV = (ImageView) findViewById(R.id.selectedIv);
         mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
 
-        mComplaintController = new ComplaintController(this);
+        mComplaintController = ComplaintController.getInstance(this);
     }
 
     private void pickImageFromSDCard() {
         Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
-        intent.setType("image/*");
+        intent.setType("*/*");
         startActivityForResult(intent, INTERNAL_IMAGE);
     }
 
@@ -127,18 +129,14 @@ public class ComplaintActivity extends AppCompatActivity {
                     InputStream inputStream = getContentResolver().openInputStream(selectedImage);
                     LightEncode lightEncode = new LightEncode(inputStream);
 
-                    mImage = new Image();
-                    mImage.setBase64Image(lightEncode.startEncode());
+                    mData = new Data();
+                    mData.setBase64(lightEncode.startEncode());
 
                     // Pega a extensao da imagem.
                     ContentResolver cR = getContentResolver();
                     MimeTypeMap mime = MimeTypeMap.getSingleton();
                     String type = mime.getExtensionFromMimeType(cR.getType(selectedImage));
-                    mImage.setMime(type);
-
-                    // Infla o imageView com a imagem selecionada na galeria.
-                    Picasso.with(this).load(selectedImage).resize(128, 128).into(mSelectedIV);
-                    mSelectedIV.setVisibility(View.VISIBLE);
+                    mData.setMime(type);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

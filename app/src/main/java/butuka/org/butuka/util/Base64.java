@@ -1488,7 +1488,7 @@ public class Base64
             // Check for size of file
             if( file.length() > Integer.MAX_VALUE )
             {
-                throw new java.io.IOException( "File is too big for this convenience method (" + file.length() + " bytes)." );
+                throw new java.io.IOException( "Data is too big for this convenience method (" + file.length() + " bytes)." );
             }   // end if: file too big for int index
             buffer = new byte[ (int)file.length() ];
             

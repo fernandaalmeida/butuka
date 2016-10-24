@@ -12,6 +12,7 @@ import com.android.volley.toolbox.Volley;
 
 import java.util.Map;
 
+import butuka.org.butuka.callback.DAOResult;
 import butuka.org.butuka.exception.NetworkNotFoundException;
 import butuka.org.butuka.util.Utils;
 
@@ -25,16 +26,6 @@ abstract class AbstractDAO {
     private Context mContext;
     private StringRequest mStringRequest;
 
-    /**
-     * String retornada pelo volley.
-     */
-    private String mStringResponse;
-
-    /**
-     * Erro gerado pelo volley.
-     */
-    private VolleyError mVolleyError;
-
     AbstractDAO(Context context) {
         mRequestQueue = Volley.newRequestQueue(context);
         mContext = context;
@@ -43,24 +34,20 @@ abstract class AbstractDAO {
     /**
      * @param url Url onde será feita a requisição via POST.
      * @param map Hash com os dados que serão enviados.
-     * @return String com a resposta da requisição.
-     * @throws NetworkNotFoundException
-     * @throws VolleyError
+     * @param result
      */
-    protected String requestByPost(String url, final Map<String, String> map) throws NetworkNotFoundException, VolleyError {
-        if (Utils.checkConnection(mContext)) {
+    protected void requestByPost(String url, final Map<String, String> map, final DAOResult result) {
             mStringRequest = new StringRequest(Request.Method.POST, url,
                     new Response.Listener<String>() {
                         @Override
                         public void onResponse(String response) {
-                            mStringResponse = response;
+                            result.onSuccess(response);
                         }
                     },
                     new Response.ErrorListener() {
                         @Override
                         public void onErrorResponse(VolleyError error) {
-                            mStringResponse = null;
-                            mVolleyError = error;
+                            result.onFailed(error);
                         }
                     }
             ) {
@@ -70,15 +57,6 @@ abstract class AbstractDAO {
                 }
             };
             mRequestQueue.add(mStringRequest);
-
-            if (mStringResponse == null) {
-                throw mVolleyError;
-            } else {
-                return mStringResponse;
-            }
-        } else {
-            throw new NetworkNotFoundException();
-        }
     }
 
     /**

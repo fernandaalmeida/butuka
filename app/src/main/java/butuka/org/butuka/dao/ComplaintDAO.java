@@ -2,10 +2,8 @@ package butuka.org.butuka.dao;
 
 import android.content.Context;
 
-import com.android.volley.VolleyError;
-
+import butuka.org.butuka.callback.DAOResult;
 import butuka.org.butuka.constant.Constants;
-import butuka.org.butuka.exception.NetworkNotFoundException;
 import butuka.org.butuka.model.Complaint;
 
 /**
@@ -15,10 +13,11 @@ import butuka.org.butuka.model.Complaint;
 public class ComplaintDAO extends AbstractDAO implements IComplaintDAO {
     private static final String TAG = "ComplaintDAOLog";
     private static volatile ComplaintDAO instance;
-
+    private Context mContext;
 
     private ComplaintDAO(Context context) {
         super(context);
+        mContext = context;
     }
 
     public static ComplaintDAO getInstance(Context context) {
@@ -33,7 +32,17 @@ public class ComplaintDAO extends AbstractDAO implements IComplaintDAO {
     }
 
     @Override
-    public void insertComplaint(Complaint complaint) throws NetworkNotFoundException, VolleyError {
-        super.requestByPost(Constants.URLS.WEB_SERVICE_URL, complaint.toHashMap());
+    public void insertComplaint(Complaint complaint, final DAOResult result) {
+        super.requestByPost(Constants.URLS.WEB_SERVICE_URL, complaint.toHashMap(), new DAOResult() {
+            @Override
+            public void onSuccess(String s) {
+                result.onSuccess(s);
+            }
+
+            @Override
+            public void onFailed(Exception e) {
+                result.onFailed(e);
+            }
+        });
     }
 }

@@ -15,7 +15,7 @@ public class Complaint {
     private String time;
     private String violator;
     private String description;
-    private Image image;
+    private Data data;
 
     public Complaint() {
 
@@ -29,9 +29,9 @@ public class Complaint {
         map.put(Constants.KEYS.VIOLATOR_KEY, violator);
         map.put(Constants.KEYS.DESCRIPTION_KEY, description);
 
-        if (image != null && image.getBase64Image() != null) {
-            map.put(Constants.KEYS.IMAGE_KEY, String.valueOf(image.getBase64Image()));
-            map.put(Constants.KEYS.MIME_KEY, image.getMime());
+        if (data != null && data.getBase64() != null) {
+            map.put(Constants.KEYS.IMAGE_KEY, String.valueOf(data.getBase64()));
+            map.put(Constants.KEYS.MIME_KEY, data.getMime());
         } else {
             map.put(Constants.KEYS.IMAGE_KEY, "null");
             map.put(Constants.KEYS.MIME_KEY, "null");
@@ -79,11 +79,11 @@ public class Complaint {
         this.description = description;
     }
 
-    public Image getImage() {
-        return image;
+    public Data getData() {
+        return data;
     }
 
-    public void setImage(Image image) {
-        this.image = image;
+    public void setData(Data data) {
+        this.data = data;
     }
 }

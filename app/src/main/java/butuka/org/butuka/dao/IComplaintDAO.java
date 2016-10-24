@@ -1,9 +1,6 @@
 package butuka.org.butuka.dao;
 
-import com.android.volley.VolleyError;
-
-import butuka.org.butuka.callback.IDAOResult;
-import butuka.org.butuka.exception.NetworkNotFoundException;
+import butuka.org.butuka.callback.DAOResult;
 import butuka.org.butuka.model.Complaint;
 
 /**
@@ -11,5 +8,5 @@ import butuka.org.butuka.model.Complaint;
  */
 
 public interface IComplaintDAO {
-    void insertComplaint(Complaint complaint) throws NetworkNotFoundException, VolleyError;
+    void insertComplaint(Complaint complaint, DAOResult result);
 }
