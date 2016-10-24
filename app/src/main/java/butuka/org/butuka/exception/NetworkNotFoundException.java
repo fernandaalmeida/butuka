@@ -8,6 +8,9 @@ public class NetworkNotFoundException extends Exception {
         super(s);
     }
 
+    public NetworkNotFoundException() {
+    }
+
     public NetworkNotFoundException(String s, Throwable cause) {
         super(s, cause);
     }

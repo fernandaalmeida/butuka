@@ -12,14 +12,15 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 
+import com.android.volley.VolleyError;
 import com.squareup.picasso.Picasso;
 
 import java.io.IOException;
 import java.io.InputStream;
 
 import butuka.org.butuka.R;
-import butuka.org.butuka.callback.IResult;
 import butuka.org.butuka.controller.ComplaintController;
+import butuka.org.butuka.exception.NetworkNotFoundException;
 import butuka.org.butuka.model.Complaint;
 import butuka.org.butuka.model.Image;
 import butuka.org.butuka.util.LightEncode;
@@ -50,7 +51,6 @@ public class ComplaintActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_complaint);
 
-        // Instancia classes e etc.
         init();
 
         mAddPhotoBt.setOnClickListener(new View.OnClickListener() {
@@ -69,6 +69,7 @@ public class ComplaintActivity extends AppCompatActivity {
             }
         });
 
+        // Envia denuncia.
         mSendBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -82,19 +83,16 @@ public class ComplaintActivity extends AppCompatActivity {
                 mComplaint.setDescription(mDescriptionEdt.getText().toString());
                 mComplaint.setImage(mImage);
 
-                mComplaintController.sendComplaint(mComplaint, new IResult() {
-                    @Override
-                    public void success() {
-                        mProgressBar.setVisibility(View.GONE);
-                        startActivity(new Intent(ComplaintActivity.this, ResultActivity.class));
-                    }
+                try {
+                    mComplaintController.sendComplaint(mComplaint);
 
-                    @Override
-                    public void onFailed(String s) {
-                        Utils.showMessage(ComplaintActivity.this, s);
-                        mProgressBar.setVisibility(View.GONE);
-                    }
-                });
+                    mProgressBar.setVisibility(View.GONE);
+                    startActivity(new Intent(ComplaintActivity.this, ResultActivity.class));
+                } catch (NetworkNotFoundException | VolleyError e) {
+                    e.printStackTrace();
+                    mProgressBar.setVisibility(View.GONE);
+                    Utils.showMessage(ComplaintActivity.this, e.getMessage());
+                }
             }
         });
     }
@@ -113,7 +111,7 @@ public class ComplaintActivity extends AppCompatActivity {
         mComplaintController = new ComplaintController(this);
     }
 
-    public void pickImageFromSDCard() {
+    private void pickImageFromSDCard() {
         Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
         intent.setType("image/*");
         startActivityForResult(intent, INTERNAL_IMAGE);
