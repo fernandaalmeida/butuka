@@ -1,12 +1,28 @@
 package butuka.org.butuka.model;
 
+import android.net.Uri;
+
 /**
  * Created by iagobelo on 30/09/2016.
  */
 
 public class Data {
+    private String fileName;
+    private Uri uri;
     private String mime;
     private StringBuffer base64;
+
+    public Data() {
+
+    }
+
+    public String getFileName() {
+        return fileName;
+    }
+
+    public void setFileName(String fileName) {
+        this.fileName = fileName;
+    }
 
     public String getMime() {
         if (mime != null) {
@@ -33,4 +49,11 @@ public class Data {
         this.base64 = base64;
     }
 
+    public Uri getUri() {
+        return uri;
+    }
+
+    public void setUri(Uri uri) {
+        this.uri = uri;
+    }
 }

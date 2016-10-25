@@ -16,8 +16,26 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="c745baf7e25ed075657ad6e292c3d024c17532b5">
+        sha1="b813e1186fc6217bd8fc75788dcbc0ced16bb4df">
         <dex dex="C:\Users\iagobelo\Documents\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8019285e30f5f1c473878c159dc54d3a630ccb5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iagobelo\Documents\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\iagobelo\Documents\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_7c843f84bf96db08e126d60523d0236383467a93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iagobelo\Documents\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="C:\Users\iagobelo\Documents\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.2.0_9b7bbeb7a8552ff33884806c60988f7c77c1a175\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -39,15 +57,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="C:\Users\iagobelo\Documents\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_7c843f84bf96db08e126d60523d0236383467a93\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\ArquivosDeProgramas\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
         jumboMode="true"
         optimize="true"
@@ -61,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="353d9b24739a12ac4515daba5a631c605bade688">
+        sha1="218213bca437b2e732792d253b393253bb89aaf4">
         <dex dex="C:\Users\iagobelo\Documents\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_9cd98879d121807fd35061edf87dee501d548666\classes.dex" />
     </item>
     <item
@@ -90,15 +99,6 @@
         revision="24.0.1"
         sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
         <dex dex="C:\Users\iagobelo\Documents\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_f955f48a2f6664fab1fc03852390e824b9d117e2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
-        <dex dex="C:\Users\iagobelo\Documents\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.2.0_9b7bbeb7a8552ff33884806c60988f7c77c1a175\classes.dex" />
     </item>
     <item
         is-multidex="true"

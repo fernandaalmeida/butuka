@@ -5,30 +5,31 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.webkit.MimeTypeMap;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 
-import com.squareup.picasso.Picasso;
-
-import java.io.IOException;
-import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 import butuka.org.butuka.R;
+import butuka.org.butuka.activity.adapter.DataRecyclerViewAdapter;
 import butuka.org.butuka.callback.OnCompleteListener;
 import butuka.org.butuka.controller.ComplaintController;
 import butuka.org.butuka.model.Complaint;
 import butuka.org.butuka.model.Data;
 import butuka.org.butuka.model.Task;
-import butuka.org.butuka.util.LightEncode;
 import butuka.org.butuka.util.Utils;
 
 public class ComplaintActivity extends AppCompatActivity {
     // Constants da classe
-    private static final int INTERNAL_IMAGE = 10;
+    private static final int INTERNAL_DATA = 10;
     private static final String TAG = "ComplaintActivityLog";
 
     // Views
@@ -39,12 +40,14 @@ public class ComplaintActivity extends AppCompatActivity {
             mDescriptionEdt;
     private RelativeLayout mAddPhotoBt;
     private RelativeLayout mSendBtn;
-    private ImageView mSelectedIV;
     private ProgressBar mProgressBar;
+    private RecyclerView mRecyclerView;
 
     private ComplaintController mComplaintController;
     private Complaint mComplaint;
-    private Data mData;
+    private List<Data> mDataList;
+    private RecyclerView.LayoutManager mLayoutManager;
+    private DataRecyclerViewAdapter mDataRecyclerViewAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,14 +63,13 @@ public class ComplaintActivity extends AppCompatActivity {
             }
         });
 
-        mSelectedIV.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mSelectedIV.setVisibility(View.GONE);
-                mSelectedIV.destroyDrawingCache();
-                mData = null;
-            }
-        });
+        mDataList = new ArrayList<>();
+
+        mDataRecyclerViewAdapter = new DataRecyclerViewAdapter(mDataList);
+        mRecyclerView.setItemAnimator(new DefaultItemAnimator());
+        mRecyclerView.setAdapter(mDataRecyclerViewAdapter);
+        mLayoutManager = new LinearLayoutManager(this);
+        mRecyclerView.setLayoutManager(mLayoutManager);
 
         // Envia denuncia.
         mSendBtn.setOnClickListener(new View.OnClickListener() {
@@ -81,7 +83,7 @@ public class ComplaintActivity extends AppCompatActivity {
                 mComplaint.setTime(mTimeEdt.getText().toString());
                 mComplaint.setViolator(mViolatorEdt.getText().toString());
                 mComplaint.setDescription(mDescriptionEdt.getText().toString());
-                mComplaint.setData(mData);
+                //mComplaint.setData(mData);
 
                 mComplaintController.sendComplaint(mComplaint, new OnCompleteListener() {
                     @Override
@@ -107,8 +109,8 @@ public class ComplaintActivity extends AppCompatActivity {
         mDescriptionEdt = (EditText) findViewById(R.id.descriptionEdt);
         mSendBtn = (RelativeLayout) findViewById(R.id.sendBt);
         mAddPhotoBt = (RelativeLayout) findViewById(R.id.addPhotoBt);
-        mSelectedIV = (ImageView) findViewById(R.id.selectedIv);
         mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
+        mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
 
         mComplaintController = ComplaintController.getInstance(this);
     }
@@ -116,30 +118,31 @@ public class ComplaintActivity extends AppCompatActivity {
     private void pickImageFromSDCard() {
         Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
         intent.setType("*/*");
-        startActivityForResult(intent, INTERNAL_IMAGE);
+        startActivityForResult(intent, INTERNAL_DATA);
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == INTERNAL_IMAGE) {
+        if (requestCode == INTERNAL_DATA) {
             if (resultCode == RESULT_OK) {
+                Data file = new Data();
 
                 Uri selectedImage = data.getData();
-                try {
-                    InputStream inputStream = getContentResolver().openInputStream(selectedImage);
-                    LightEncode lightEncode = new LightEncode(inputStream);
+                //InputStream inputStream = getContentResolver().openInputStream(selectedImage);
+                //LightEncode lightEncode = new LightEncode(inputStream);
+                file.setUri(selectedImage);
 
-                    mData = new Data();
-                    mData.setBase64(lightEncode.startEncode());
+                // Pega a extensao da imagem.
+                ContentResolver cR = getContentResolver();
+                MimeTypeMap mime = MimeTypeMap.getSingleton();
+                String type = mime.getExtensionFromMimeType(cR.getType(selectedImage));
+                file.setMime(type);
 
-                    // Pega a extensao da imagem.
-                    ContentResolver cR = getContentResolver();
-                    MimeTypeMap mime = MimeTypeMap.getSingleton();
-                    String type = mime.getExtensionFromMimeType(cR.getType(selectedImage));
-                    mData.setMime(type);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+                // Adiciona o arquivo selecionado na lista.
+                mDataList.add(file);
+                mDataRecyclerViewAdapter.setData(mDataList);
+
+                Log.i(TAG, "Uri: " + selectedImage);
             }
         }
     }

@@ -87,20 +87,20 @@ package butuka.org.butuka.util;
  *      such as when passed arrays are null or offsets are invalid.</li>
  *    <li>Cleaned up as much javadoc as I could to avoid any javadoc warnings.
  *      This was especially annoying before for people who were thorough in their
- *      own projects and then had gobs of javadoc warnings on this file.</li>
+ *      own projects and then had gobs of javadoc warnings on this file_ic.</li>
  *   </ul>
  *  <li>v2.2.1 - Fixed bug using URL_SAFE and ORDERED encodings. Fixed bug
  *   when using very small files (~&lt; 40 bytes).</li>
  *  <li>v2.2 - Added some helper methods for encoding/decoding directly from
- *   one file to the next. Also added a main() method to support command line
- *   encoding/decoding from one file to the next. Also added these Base64 dialects:
+ *   one file_ic to the next. Also added a main() method to support command line
+ *   encoding/decoding from one file_ic to the next. Also added these Base64 dialects:
  *   <ol>
  *   <li>The default is RFC3548 format.</li>
  *   <li>Calling Base64.setFormat(Base64.BASE64_FORMAT.URLSAFE_FORMAT) generates
- *   URL and file name friendly format as described in Section 4 of RFC3548.
+ *   URL and file_ic name friendly format as described in Section 4 of RFC3548.
  *   http://www.faqs.org/rfcs/rfc3548.html</li>
  *   <li>Calling Base64.setFormat(Base64.BASE64_FORMAT.ORDERED_FORMAT) generates
- *   URL and file name friendly format that preserves lexical ordering as described
+ *   URL and file_ic name friendly format that preserves lexical ordering as described
  *   in http://www.faqs.org/qa/rfcc-1940.html</li>
  *   </ol>
  *   Special thanks to Jim Kellerman at <a href="http://www.powerset.com/">http://www.powerset.com/</a>
@@ -123,7 +123,7 @@ package butuka.org.butuka.util;
  *   byte[] using <tt>decode( String s, boolean gzipCompressed )</tt>.      
  *   Added the ability to "suspend" encoding in the Output Stream so        
  *   you can turn on and off the encoding if you need to embed base64       
- *   data in an otherwise "normal" stream (like an XML file).</li>  
+ *   data in an otherwise "normal" stream (like an XML file_ic).</li>
  *  <li>v1.5 - Output stream pases on flush() command but doesn't do anything itself.
  *      This helps when using GZIP streams.
  *      Added the ability to GZip-compress objects before encoding them.</li>
@@ -1181,7 +1181,7 @@ public class Base64
             
             // White space, Equals sign, or legit Base64 character
             // Note the values such as -5 and -9 in the
-            // DECODABETs at the top of the file.
+            // DECODABETs at the top of the file_ic.
             if( sbiDecode >= WHITE_SPACE_ENC )  {
                 if( sbiDecode >= EQUALS_SIGN_ENC ) {
                     b4[ b4Posn++ ] = source[i];         // Save non-whitespace
@@ -1388,7 +1388,7 @@ public class Base64
     
     
     /**
-     * Convenience method for encoding data to a file.
+     * Convenience method for encoding data to a file_ic.
      *
      * <p>As of v 2.3, if there is a error,
      * the method will throw an java.io.IOException. <b>This is new to v2.3!</b>
@@ -1425,7 +1425,7 @@ public class Base64
     
     
     /**
-     * Convenience method for decoding data to a file.
+     * Convenience method for decoding data to a file_ic.
      *
      * <p>As of v 2.3, if there is a error,
      * the method will throw an java.io.IOException. <b>This is new to v2.3!</b>
@@ -1460,7 +1460,7 @@ public class Base64
     
     /**
      * Convenience method for reading a base64-encoded
-     * file and decoding it.
+     * file_ic and decoding it.
      *
      * <p>As of v 2.3, if there is a error,
      * the method will throw an java.io.IOException. <b>This is new to v2.3!</b>
@@ -1485,11 +1485,11 @@ public class Base64
             int length   = 0;
             int numBytes = 0;
             
-            // Check for size of file
+            // Check for size of file_ic
             if( file.length() > Integer.MAX_VALUE )
             {
                 throw new java.io.IOException( "Data is too big for this convenience method (" + file.length() + " bytes)." );
-            }   // end if: file too big for int index
+            }   // end if: file_ic too big for int index
             buffer = new byte[ (int)file.length() ];
             
             // Open a stream
@@ -1520,7 +1520,7 @@ public class Base64
     
     
     /**
-     * Convenience method for reading a binary file
+     * Convenience method for reading a binary file_ic
      * and base64-encoding it.
      *
      * <p>As of v 2.3, if there is a error,
@@ -1573,8 +1573,8 @@ public class Base64
     /**
      * Reads <tt>infile</tt> and encodes it to <tt>outfile</tt>.
      *
-     * @param infile Input file
-     * @param outfile Output file
+     * @param infile Input file_ic
+     * @param outfile Output file_ic
      * @throws java.io.IOException if there is an error
      * @since 2.2
      */
@@ -1601,8 +1601,8 @@ public class Base64
     /**
      * Reads <tt>infile</tt> and decodes it to <tt>outfile</tt>.
      *
-     * @param infile Input file
-     * @param outfile Output file
+     * @param infile Input file_ic
+     * @param outfile Output file_ic
      * @throws java.io.IOException if there is an error
      * @since 2.2
      */
