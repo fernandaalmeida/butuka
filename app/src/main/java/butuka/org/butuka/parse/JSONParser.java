@@ -1,6 +1,7 @@
 package butuka.org.butuka.parse;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
@@ -15,7 +16,8 @@ public class JSONParser {
 
     }
 
-    public String parseResult(String jsonString) {
-        return null;
+    public int parseResult(String jsonString) throws JSONException {
+        mJsonObject = new JSONObject(jsonString);
+        return mJsonObject.getInt("result");
     }
 }

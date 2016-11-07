@@ -9,22 +9,22 @@ import android.widget.TextView;
 import java.util.List;
 
 import butuka.org.butuka.R;
-import butuka.org.butuka.model.Data;
+import butuka.org.butuka.model.File;
 
 /**
  * Created by iagobelo on 24/10/2016.
  */
 
 public class DataRecyclerViewAdapter extends RecyclerView.Adapter<DataRecyclerViewAdapter.ViewHolder> {
-    private List<Data> mDataList;
+    private List<File> mFileList;
 
     // Provide a suitable constructor (depends on the kind of dataset)
-    public DataRecyclerViewAdapter(List<Data> list) {
-        mDataList = list;
+    public DataRecyclerViewAdapter(List<File> list) {
+        mFileList = list;
     }
 
-    public void setData(List<Data> list) {
-        this.mDataList = list;
+    public void setData(List<File> list) {
+        this.mFileList = list;
         notifyDataSetChanged();
     }
 
@@ -35,6 +35,7 @@ public class DataRecyclerViewAdapter extends RecyclerView.Adapter<DataRecyclerVi
         // create a new view
         View v = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.data_layout, parent, false);
+
         // set the view's size, margins, paddings and layout parameters
         return new ViewHolder(v);
     }
@@ -44,11 +45,11 @@ public class DataRecyclerViewAdapter extends RecyclerView.Adapter<DataRecyclerVi
     public void onBindViewHolder(ViewHolder holder, final int position) {
         // - get element from your dataset at this position
         // - replace the contents of the view with that element
-        holder.mTextView.setText(mDataList.get(position).getMime());
+        holder.mTextView.setText(mFileList.get(position).getMime());
         holder.mTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mDataList.remove(position);
+                mFileList.remove(position);
                 notifyDataSetChanged();
             }
         });
@@ -57,7 +58,7 @@ public class DataRecyclerViewAdapter extends RecyclerView.Adapter<DataRecyclerVi
     // Return the size of your dataset (invoked by the layout manager)
     @Override
     public int getItemCount() {
-        return mDataList.size();
+        return mFileList.size();
     }
 
     // Provide a reference to the views for each data item
@@ -68,7 +69,7 @@ public class DataRecyclerViewAdapter extends RecyclerView.Adapter<DataRecyclerVi
 
         public ViewHolder(View v) {
             super(v);
-            mTextView = (TextView) v.findViewById(R.id.nameTv);
+            mTextView = (TextView) v.findViewById(R.id.fileNameTv);
         }
     }
 }

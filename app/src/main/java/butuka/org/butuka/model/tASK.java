@@ -4,50 +4,41 @@ package butuka.org.butuka.model;
  * Created by iagobelo on 24/10/2016.
  */
 
-public class Task {
-    private final boolean isSuccessful;
-    private final String message;
-    private final Exception exception;
+public class Task<T> {
+    private boolean isSuccessful;
+    private Exception exception;
+    private T result;
 
-    private Task(Builder builder) {
-        this.isSuccessful = builder.isSuccessful;
-        this.message = builder.message;
-        this.exception = builder.exception;
+    public Task(boolean isSuccessful) {
+        this.isSuccessful = isSuccessful;
+    }
+
+    public Task(boolean isSuccessful, Exception exception) {
+        this.isSuccessful = isSuccessful;
+        this.exception = exception;
+    }
+
+    public Task(boolean isSuccessful, T result) {
+        this.isSuccessful = isSuccessful;
+        this.exception = exception;
+        this.result = result;
+    }
+
+    public Task(Task task) {
+        this.isSuccessful = task.isSuccessful();
+        this.exception = task.getException();
+        this.result = (T) task.getResult();
     }
 
     public boolean isSuccessful() {
         return isSuccessful;
     }
 
-    public String getMessage() {
-        return message;
-    }
-
     public Exception getException() {
         return exception;
     }
 
-    public static class Builder {
-        private final boolean isSuccessful;
-        private String message;
-        private Exception exception;
-
-        public Builder(boolean isSuccessful) {
-            this.isSuccessful = isSuccessful;
-        }
-
-        public Builder withMessage(String message) {
-            this.message = message;
-            return this;
-        }
-
-        public Builder withExcpetion(Exception e) {
-            this.exception = e;
-            return this;
-        }
-
-        public Task build() {
-            return new Task(this);
-        }
+    public T getResult() {
+        return result;
     }
 }

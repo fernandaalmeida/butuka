@@ -24,7 +24,7 @@
             android:layout_height="wrap_content">
 
             <RelativeLayout
-                android:id="@+id/addPhotoBt"
+                android:id="@+id/addFileBt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@mipmap/add_photo_bg" />
@@ -33,28 +33,61 @@
                 android:id="@+id/container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/addPhotoBt"
+                android:layout_below="@+id/addFileBt"
                 android:orientation="vertical"
                 android:padding="16dp">
 
-                <android.support.v7.widget.RecyclerView
-                    android:id="@+id/recycler_view"
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:scrollbars="vertical" />
-
-                <android.support.design.widget.TextInputLayout
+                <LinearLayout
+                    android:id="@+id/fileNameContainer"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:hint="@string/location">
+                    android:orientation="horizontal"
+                    android:visibility="gone">
 
-                    <EditText
-                        android:id="@+id/locationEdt"
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin"
+                        android:src="@mipmap/file_ic" />
+
+                    <TextView
+                        android:id="@+id/fileNameTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="Arquivo.txt" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <android.support.design.widget.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:inputType="text" />
-                </android.support.design.widget.TextInputLayout>
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="100"
+                        android:hint="@string/location">
+
+                        <EditText
+                            android:id="@+id/locationEdt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp"
+                            android:inputType="text" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <!--ImageView
+                        android:id="@+id/mapBt"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@mipmap/map_marker"
+                        android:layout_gravity="center_vertical" /-->
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"

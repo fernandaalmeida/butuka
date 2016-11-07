@@ -2,7 +2,6 @@ package butuka.org.butuka.controller;
 
 import android.content.Context;
 
-import butuka.org.butuka.callback.DAOResult;
 import butuka.org.butuka.callback.OnCompleteListener;
 import butuka.org.butuka.dao.ComplaintDAO;
 import butuka.org.butuka.dao.IComplaintDAO;
@@ -14,9 +13,11 @@ import butuka.org.butuka.model.Task;
  */
 
 public class ComplaintController {
+    public static final int RESULT_SUCCESS = 1;
+    public static final int RESULT_FAILED = 0;
+
     private static ComplaintController instance;
     private IComplaintDAO mComplaintDAO;
-    private Task mTask;
 
     private ComplaintController(Context context) {
         mComplaintDAO = ComplaintDAO.getInstance(context);
@@ -33,21 +34,21 @@ public class ComplaintController {
         return instance;
     }
 
-    public void sendComplaint(Complaint complaint, final OnCompleteListener listener) {
-        mComplaintDAO.insertComplaint(complaint, new DAOResult() {
+    public void sendComplaint(Complaint complaint, final OnCompleteListener<Void> listener) {
+        mComplaintDAO.insertComplaint(complaint, new OnCompleteListener<Integer>() {
             @Override
-            public void onSuccess(String s) {
-                mTask = new Task.Builder(true).build();
-                listener.onComplete(mTask);
-            }
+            public void onComplete(Task<Integer> task) {
+                if (task.isSuccessful()) {
+                    switch (task.getResult()) {
+                        case RESULT_SUCCESS:
+                            listener.onComplete(new Task<Void>(true));
+                            break;
 
-            @Override
-            public void onFailed(Exception e) {
-                e.printStackTrace();
-                mTask = new Task.Builder(false)
-                        .withMessage(e.getMessage())
-                        .build();
-                listener.onComplete(mTask);
+                        case RESULT_FAILED:
+                            listener.onComplete(new Task<Void>(task));
+                            break;
+                    }
+                }
             }
         });
     }

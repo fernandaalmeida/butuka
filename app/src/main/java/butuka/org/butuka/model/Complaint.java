@@ -1,5 +1,6 @@
 package butuka.org.butuka.model;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -15,13 +16,13 @@ public class Complaint {
     private String time;
     private String violator;
     private String description;
-    private Data data;
+    private File file;
 
     public Complaint() {
 
     }
 
-    public Map<String, String> toHashMap() {
+    public Map<String, String> toHashMap() throws IOException {
         Map<String, String> map = new HashMap<>();
         map.put(Constants.KEYS.LOCATION_KEY, location);
         map.put(Constants.KEYS.DATE_KEY, date);
@@ -29,12 +30,9 @@ public class Complaint {
         map.put(Constants.KEYS.VIOLATOR_KEY, violator);
         map.put(Constants.KEYS.DESCRIPTION_KEY, description);
 
-        if (data != null && data.getBase64() != null) {
-            map.put(Constants.KEYS.IMAGE_KEY, String.valueOf(data.getBase64()));
-            map.put(Constants.KEYS.MIME_KEY, data.getMime());
-        } else {
-            map.put(Constants.KEYS.IMAGE_KEY, "null");
-            map.put(Constants.KEYS.MIME_KEY, "null");
+        if (file.getUri() != null && file.getMime() != null) {
+            map.put(Constants.KEYS.DATA_KEY, file.toBase64());
+            map.put(Constants.KEYS.MIME_KEY, file.getMime());
         }
         return map;
     }
@@ -79,11 +77,11 @@ public class Complaint {
         this.description = description;
     }
 
-    public Data getData() {
-        return data;
+    public File getFile() {
+        return file;
     }
 
-    public void setData(Data data) {
-        this.data = data;
+    public void setFile(File file) {
+        this.file = file;
     }
 }

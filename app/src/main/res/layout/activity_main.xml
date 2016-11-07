@@ -25,7 +25,7 @@
         android:textColor="#FFF" />
 
     <Button
-        android:id="@+id/returnBt"
+        android:id="@+id/rightsBt"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/denuncieBt"

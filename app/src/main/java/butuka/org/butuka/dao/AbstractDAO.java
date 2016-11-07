@@ -13,6 +13,7 @@ import com.android.volley.toolbox.Volley;
 import java.util.Map;
 
 import butuka.org.butuka.callback.DAOResult;
+import butuka.org.butuka.exception.DAOException;
 import butuka.org.butuka.exception.NetworkNotFoundException;
 import butuka.org.butuka.util.Utils;
 
@@ -32,31 +33,31 @@ abstract class AbstractDAO {
     }
 
     /**
-     * @param url Url onde será feita a requisição via POST.
-     * @param map Hash com os dados que serão enviados.
+     * @param url    Url onde será feita a requisição via POST.
+     * @param map    Hash com os dados que serão enviados.
      * @param result
      */
     protected void requestByPost(String url, final Map<String, String> map, final DAOResult result) {
-            mStringRequest = new StringRequest(Request.Method.POST, url,
-                    new Response.Listener<String>() {
-                        @Override
-                        public void onResponse(String response) {
-                            result.onSuccess(response);
-                        }
-                    },
-                    new Response.ErrorListener() {
-                        @Override
-                        public void onErrorResponse(VolleyError error) {
-                            result.onFailed(error);
-                        }
+        mStringRequest = new StringRequest(Request.Method.POST, url,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        result.onSuccess(response);
                     }
-            ) {
-                @Override
-                protected Map<String, String> getParams() throws AuthFailureError {
-                    return map;
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        result.onFailed(error);
+                    }
                 }
-            };
-            mRequestQueue.add(mStringRequest);
+        ) {
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                return map;
+            }
+        };
+        mRequestQueue.add(mStringRequest);
     }
 
     /**

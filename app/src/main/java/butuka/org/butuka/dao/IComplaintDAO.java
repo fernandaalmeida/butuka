@@ -1,6 +1,6 @@
 package butuka.org.butuka.dao;
 
-import butuka.org.butuka.callback.DAOResult;
+import butuka.org.butuka.callback.OnCompleteListener;
 import butuka.org.butuka.model.Complaint;
 
 /**
@@ -8,5 +8,5 @@ import butuka.org.butuka.model.Complaint;
  */
 
 public interface IComplaintDAO {
-    void insertComplaint(Complaint complaint, DAOResult result);
+    void insertComplaint(Complaint complaint, OnCompleteListener<Integer> listener);
 }
