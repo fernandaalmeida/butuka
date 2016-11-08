@@ -8,20 +8,16 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.google.android.gms.maps.model.LatLng;
 
 import butuka.org.butuka.R;
-import butuka.org.butuka.callback.OnCompleteListener;
 import butuka.org.butuka.constant.Constants;
 import butuka.org.butuka.controller.ComplaintController;
 import butuka.org.butuka.model.Complaint;
 import butuka.org.butuka.model.File;
-import butuka.org.butuka.model.Task;
-import butuka.org.butuka.util.Utils;
 
 public class ComplaintActivity extends AppCompatActivity {
 
@@ -40,12 +36,11 @@ public class ComplaintActivity extends AppCompatActivity {
     private RelativeLayout mAddFileBt;
     private RelativeLayout mSendBtn;
     private LinearLayout mFileNameContainer;
-    private ProgressBar mProgressBar;
     private TextView mFileNameTv;
 
     private ComplaintController mComplaintController;
     private Complaint mComplaint;
-    private File mFile;
+    private Uri mUri;
     private LatLng mLatLng;
 
     @Override
@@ -71,29 +66,22 @@ public class ComplaintActivity extends AppCompatActivity {
         mSendBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mProgressBar.setVisibility(View.VISIBLE);
 
-                mComplaint = new Complaint();
-                mComplaint.setLocation(mLocationEdt.getText().toString());
-                mComplaint.setDate(mDateEdt.getText().toString());
-                mComplaint.setTime(mTimeEdt.getText().toString());
-                mComplaint.setViolator(mViolatorEdt.getText().toString());
-                mComplaint.setDescription(mDescriptionEdt.getText().toString());
-                mComplaint.setFile(mFile);
+                Intent intent = new Intent(ComplaintActivity.this, ResultActivity.class);
 
-                mComplaintController.sendComplaint(mComplaint, new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(Task<Void> task) {
-                        if (task.isSuccessful()) {
-                            mProgressBar.setVisibility(View.GONE);
-                            startActivity(new Intent(ComplaintActivity.this, ResultActivity.class));
-                        } else {
-                            mProgressBar.setVisibility(View.GONE);
-                            Utils.showMessage(ComplaintActivity.this, task.getException().getMessage());
-                            task.getException().printStackTrace();
-                        }
-                    }
-                });
+                Bundle extras = new Bundle();
+                extras.putString(Constants.KEYS.LOCATION_KEY, mLocationEdt.getText().toString());
+                extras.putString(Constants.KEYS.DATE_KEY, mDateEdt.getText().toString());
+                extras.putString(Constants.KEYS.TIME_KEY, mTimeEdt.getText().toString());
+                extras.putString(Constants.KEYS.VIOLATOR_KEY, mViolatorEdt.getText().toString());
+                extras.putString(Constants.KEYS.DESCRIPTION_KEY, mDescriptionEdt.getText().toString());
+                if (mUri != null) {
+                    extras.putString("uri", String.valueOf(mUri));
+                } else {
+                    extras.putString("uri", "null");
+                }
+                intent.putExtras(extras);
+                startActivity(intent);
             }
         });
 
@@ -102,6 +90,7 @@ public class ComplaintActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mFileNameContainer.setVisibility(View.GONE);
+                mUri = null;
             }
         });
 
@@ -125,7 +114,6 @@ public class ComplaintActivity extends AppCompatActivity {
         mSendBtn = (RelativeLayout) findViewById(R.id.sendBt);
         mAddFileBt = (RelativeLayout) findViewById(R.id.addFileBt);
         mFileNameContainer = (LinearLayout) findViewById(R.id.fileNameContainer);
-        mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
         //mMapBt = (ImageView) findViewById(R.id.mapBt);
         mFileNameTv = (TextView) findViewById(R.id.fileNameTv);
 
@@ -146,10 +134,9 @@ public class ComplaintActivity extends AppCompatActivity {
         switch (requestCode) {
             case DATA_RESULT:
                 if (resultCode == RESULT_OK) {
-                    Uri selectedData = data.getData();
+                    mUri = data.getData();
 
-                    mFile = new File(this, selectedData);
-                    mFileNameTv.setText(mFile.getFileName());
+                    mFileNameTv.setText(new File(mUri).getFileName(this));
 
                     mFileNameContainer.setVisibility(View.VISIBLE);
                 }

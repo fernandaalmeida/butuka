@@ -12,7 +12,29 @@
     <string name="complaint_sended">DENÚNCIA ENVIADA COM SUCESSO!</string>
     <string name="back">VOLTAR</string>
     <string name="title_activity_maps">Map</string>
-    <string name="rights">Direitos civis são distintos de "direitos humanos" ou "direitos naturais", também chamados "direitos divinos". Direitos civis são direitos que são estabelecidos pelas nações limitados aos seus limites territoriais, enquanto direitos naturais ou humanos são direitos que muitos acadêmicos dizem que os indivíduos têm por natureza ao nascer. Por exemplo, o filósofo John Locke (1632–1704) argumentou que os direitos naturais da vida, liberdade e propriedade deveriam ser convertidos em direitos civis e protegidos pelo estado soberano como um aspecto do contrato social. Outros argumentaram que as pessoas adquirem direitos como um presente inalienável da divindade ou em um tempo de natureza antes que os governos se formassem.
-        Leis garantindo direitos civis podem ser escritas ou derivadas do costume. Nos Estados Unidos e na maioria dos países continentais europeus, as leis de direitos civis, em sua maior parte, são escritas. Exemplos de direitos civis e liberdades incluem: o direito de ser ressarcido em caso de danos por terceiros; o direito à privacidade; o direito ao protesto pacífico; o direito à investigação e julgamento justos em caso de suspeição de crime; e direitos constitucionais mais generalistas, como o direito ao voto, o direito à liberdade pessoal, o direito à liberdade de ir e vir, o direito à proteção igualitária, o habeas corpus, o direito de permanecer em silêncio (isto é, de não responder a questionamento) e o direito a um advogado; estes últimos três visam a garantir que os acusados de algum crime tenham assegurados os seus direitos.
+    <string name="rights">
+- A abordagem policial não pode ser realizada de forma violenta. \n
+-O/A policial não poderá ameaçar ou bater em alguém para conseguir alguma informação, se o fizer configurará crime de tortura.\n
+- O agente policial não poderá ofender ninguém por sua cor e raça, se o fizer configurará crime de discriminação racial.\n
+- Mulheres devem ser revistadas por policiais mulheres. (a não ser em casos de fundada suspeita e que não haja policiais mulheres por perto. Nessa abordagem, o policial homem não poderá tocar nas partes íntimas da mulher, se o fizer cometerá crime de ato libidinoso e abuso de autoridade)\n
+- O agente de polícia só poderá ingressar em sua residência com a posse de um mandado judicial. (Deverá ser um mandado específico para aquela casa, não um mandado coletivo genérico)\n
+- O agente policial só poderá entrar na sua casa, mesmo com mandato, durante o dia. A noite só poderá entrar se tiver autorização da/o morador(a).\n
+- Nenhum cidadão pode ser detido por não portar documento de identidade.\n
+- Todo policial deve estar com a devida identificação na farda.\n
+- O agente policial não poderá exigir ou receber qualquer vantagem indevida. (incluindo dinheiro)\n
+- A polícia não pode utilizar seu aparelho de celular sem sua autorização ou mandado judicial.\n
+- Antes de registrar uma ação inadequada da policia certifique-se de sua própria segurança.\n
+- Ao realizar uma filmagem ou foto, busque o máximo de informações possíveis, como a placa da viatura, número da viatura, nome dos policiais, local e hora da ocorrência.\n
+- Não constitui crime filmar ou fotografar um agente público em serviço e em via pública.\n
+\n
+Todo esse conteúdo se encontra nas seguintes leis:\n
+Artigo 5º da Constituição Federal\n
+Arts. 240 a 249 do Código de Processo Penal\n
+Art. 317 do Código Penal\n
+Lei 4.898/1965 (Abuso de autoridade)\n
+Lei 7.716/1989 (Discriminação racial)\n
+Lei 9.455/1997 (Crimes de tortura)\n
     </string>
+    <string name="sending_complaint">ENVIANDO DENÚNCIA.</string>
+    <string name="complaint_sending_failed">FALHA AO ENVIAR A DENÚNCIA, POR FAVOR TENTE NOVAMENTE.</string>
 </resources>
