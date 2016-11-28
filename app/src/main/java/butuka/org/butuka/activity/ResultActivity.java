@@ -73,21 +73,25 @@ public class ResultActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
             }
-
             Log.i(TAG, complaint.toString());
 
-            mComplaintController.sendComplaint(complaint, new OnCompleteListener<Void>() {
-                @Override
-                public void onComplete(Task<Void> task) {
-                    if (task.isSuccessful()) {
-                        success();
-                    } else {
-                        failed();
-                        Utils.showMessage(ResultActivity.this, task.getException().getMessage());
-                        task.getException().printStackTrace();
+            try {
+                mComplaintController.sendComplaint(complaint, new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(Task<Void> task) {
+                        if (task.isSuccessful()) {
+                            success();
+                        } else {
+                            failed();
+                            //Utils.showMessage(ResultActivity.this, task.getException().getMessage());
+                            task.getException().printStackTrace();
+                        }
                     }
-                }
-            });
+                });
+            } catch (IOException e) {
+                e.printStackTrace();
+                failed();
+            }
         } else {
             Log.i(TAG, "bundle nulo.");
         }

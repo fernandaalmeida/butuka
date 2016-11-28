@@ -13,7 +13,6 @@ import com.android.volley.toolbox.Volley;
 import java.util.Map;
 
 import butuka.org.butuka.callback.DAOResult;
-import butuka.org.butuka.exception.DAOException;
 import butuka.org.butuka.exception.NetworkNotFoundException;
 import butuka.org.butuka.util.Utils;
 
@@ -23,6 +22,7 @@ import butuka.org.butuka.util.Utils;
 
 abstract class AbstractDAO {
     private static final String TAG = "AbstractDAOLog";
+    private static final int TIMEOUT = 6000;
     private static RequestQueue mRequestQueue;
     private Context mContext;
     private StringRequest mStringRequest;
@@ -35,29 +35,34 @@ abstract class AbstractDAO {
     /**
      * @param url    Url onde será feita a requisição via POST.
      * @param map    Hash com os dados que serão enviados.
-     * @param result
+     * @param result Listener.
      */
     protected void requestByPost(String url, final Map<String, String> map, final DAOResult result) {
-        mStringRequest = new StringRequest(Request.Method.POST, url,
-                new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-                        result.onSuccess(response);
+        if (Utils.checkConnection(mContext)) {
+            mStringRequest = new StringRequest(Request.Method.POST, url,
+                    new Response.Listener<String>() {
+                        @Override
+                        public void onResponse(String response) {
+                            result.onSuccess(response);
+                        }
+                    },
+                    new Response.ErrorListener() {
+                        @Override
+                        public void onErrorResponse(VolleyError error) {
+                            error.printStackTrace();
+                            result.onFailed(error);
+                        }
                     }
-                },
-                new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        result.onFailed(error);
-                    }
+            ) {
+                @Override
+                protected Map<String, String> getParams() throws AuthFailureError {
+                    return map;
                 }
-        ) {
-            @Override
-            protected Map<String, String> getParams() throws AuthFailureError {
-                return map;
-            }
-        };
-        mRequestQueue.add(mStringRequest);
+            };
+            mRequestQueue.add(mStringRequest);
+        } else {
+            result.onFailed(new NetworkNotFoundException());
+        }
     }
 
     /**

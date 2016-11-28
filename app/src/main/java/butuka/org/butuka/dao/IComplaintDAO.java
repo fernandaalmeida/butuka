@@ -1,5 +1,7 @@
 package butuka.org.butuka.dao;
 
+import java.io.IOException;
+
 import butuka.org.butuka.callback.OnCompleteListener;
 import butuka.org.butuka.model.Complaint;
 
@@ -8,5 +10,5 @@ import butuka.org.butuka.model.Complaint;
  */
 
 public interface IComplaintDAO {
-    void insertComplaint(Complaint complaint, OnCompleteListener<Integer> listener);
+    void insertComplaint(Complaint complaint, OnCompleteListener<Integer> listener) throws IOException;
 }

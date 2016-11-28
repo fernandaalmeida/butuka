@@ -26,14 +26,13 @@ public class Complaint implements Serializable {
 
     public Map<String, String> toHashMap() throws IOException {
         Map<String, String> map = new HashMap<>();
-        map.put(Constants.KEYS.LOCATION_KEY, location.length() <= 1 ? "null" : location);
-        map.put(Constants.KEYS.DATE_KEY, date.length() <= 1 ? "null" : date);
-        map.put(Constants.KEYS.TIME_KEY, time.length() <= 1 ? "null" : time);
-        map.put(Constants.KEYS.VIOLATOR_KEY, violator.length() <= 1 ? "null" : violator);
-        map.put(Constants.KEYS.DESCRIPTION_KEY, description.length() <= 1 ? "null" : description);
-        map.put(Constants.KEYS.DATA_KEY, base64);
-        map.put(Constants.KEYS.MIME_KEY, fileMime);
-
+        map.put(Constants.KEYS.LOCATION_KEY, (location.length()) <= 1 ? "null" : location);
+        map.put(Constants.KEYS.DATE_KEY, (date.length() <= 1) ? "null" : date);
+        map.put(Constants.KEYS.TIME_KEY, (time.length() <= 1) ? "null" : time);
+        map.put(Constants.KEYS.VIOLATOR_KEY, (violator.length()) <= 1 ? "null" : violator);
+        map.put(Constants.KEYS.DESCRIPTION_KEY, (description.length()) <= 1 ? "null" : description);
+        map.put(Constants.KEYS.DATA_KEY, (base64 == null) ? "null" : base64);
+        map.put(Constants.KEYS.MIME_KEY, (fileMime == null) ? "null" : fileMime);
         return map;
     }
 
