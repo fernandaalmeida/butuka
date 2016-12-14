@@ -3,588 +3,1965 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_88d69d11a8db6cff669e12716191aed5dd681af2\classes.dex" />
+        revision="25.0.1"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-10.0.1_951e6e8580db996f248e8f3d3ddf51f18419e89b/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="6e98d0e54e45a90a99656693abe0272116ace114">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_53150f699c9eaa708c5a390039fad2d2a9a79655\classes.dex" />
+        revision="25.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_31affd5721346b168b2beced4eebc695ab0a0e07/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.6.1_fe05747ece615a1fd4e1487831278d995667d3f0\classes.dex" />
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_4221f5786b35e1e6e272b5e0709d449331f2aca0/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.6.1_1331dcfed4db2e099389e26a0cb2640380eae4b3\classes.dex" />
+        revision="25.0.1"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.0.1_fb815dd0092913a2854ed70279332cb46d40a027/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.6.1_8b6255b6b9d710a9ad78abc67ca90217437763d5\classes.dex" />
+        revision="25.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_461f9d3384a407642a4236d8a2e4046843e8a878/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="f6aa7c76cbaa867e05dbad0afab1ef0e65c4e55f">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.6.1_a28bbab27aa35a7246700c290f1634ad2be4d262\classes.dex" />
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_9f291f559f4de2a3c45e3be519133778d7847bf5/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="0cae6511c5705869cacf199f8abb0ea84cd10157">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.6.1_b6c8972aff16a5ae655e874ab1b24b9f7d4293fe\classes.dex" />
+        revision="25.0.1"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-10.0.1_d5cd6f1c89a2e1536b245de25122d900f55c53a9/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_9e6edc2fea7bcd799774dd7918067febe5fefed1\classes.dex" />
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_1e9c3c73a33fca54ff041273bf513217a154ba70/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="da3f763afd39da1c947d9442847c837e9182a09f">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.6.1_389c730ed43980e6f44335d7bb6197ab4cb023d8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
+        revision="25.0.1"
         sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_e1cf18a1cb6fa3435ee179fcb2a7f6c76b9b6660\classes.dex" />
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_03888aaf41bdb371c0d27512fbf9ec958626d1e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-places-10.0.1_398e74799853c861dfa2a20ae64b177901d5663b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-instantapps-10.0.1_d896df36d1e49bfcb44d851367af1efd1463e2a8.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.0.0_4727931096e07f52f4a78b0d6b9de569aec07187\classes.dex" />
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_ddc97c77981bea273ead16b8245c790f8205b7d0/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="465f40f840e583f8b7421a3aacf3fbf08c28f00a">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.6.1_64a4a4e7f60ede7cd30dcd42ae437c516e45cbd0\classes.dex" />
+        revision="25.0.1"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-10.0.1_865def335bd851cd6fe434e53cac516c18f165a3/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="90be14317e3f26d18438e8dbf8544500d1dfe07f">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-9.6.1_4d44f2e1b70271d7c78a9d35b205bc9629c1c346\classes.dex" />
+        revision="25.0.1"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.0.1_0a5e77e1c6a77f2285d57495c5d5e12a9e29ab79/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="a136366045678579300d161de97c2211c4c4f7a0">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-9.6.1_1e6d6a19a6b7511a6c7e3b21bb8966a598160f9d\classes.dex" />
+        revision="25.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_58d289ed8cacabbc8709e29c38ecb5cb18d0b063/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="babb25794a7599069d34705038744c5760a9a88c">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-9.6.1_53cef6ea2d3267252e9c4e59d0f0f25ea2e23419\classes.dex" />
+        revision="25.0.1"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-10.0.1_ffa23c93a8a2cd42811f08be2930970cf463b67f/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="4a36600281a648769411ef642c331851732bf29e">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.6.1_db4e30f7ee6b0fdd247524baed328bb0e40784b8\classes.dex" />
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_8d1741e6b2e8bbae92fd9dd8b330e830fb4d6839/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.0.0_5ddb29a42bc6d8e9019502673b230d2714857102\classes.dex" />
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_e758e3b1ac1e5ce911e667f99afbe265144bf779/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="a76a6983a23788b3689524d4bed763955afbd306">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-9.6.1_9defbd5d7b65a91b25b6ee8fb9825f34bc00bc69\classes.dex" />
+        revision="25.0.1"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-10.0.1_4cc3581173fdd4064f9d3a16da064d0da564a18e/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="1810ae0df0a1b9b539ce97df54e96f2bf8f5ff94">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-9.6.1_defa9d94fff9246410c648d70059c508c99f4462\classes.dex" />
+        revision="25.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_fe6cdba6c06a2601a3912fd8c1e35bb8b4992fa9/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="159494eb362396d073d8c922b77e40c0da5fc5bc">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.6.1_bfd9971d80e73d436b5efcac4ce359d8aa4f4612\classes.dex" />
+        revision="25.0.1"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-10.0.1_3e899d0f1cf5c950f7c111495789228def6b6cf3/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-drive-10.0.1_f145b88662c29da0eaa44cbdf3ca170814a543f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.android.support-support-media-compat-25.0.1_abf245e28721ec36a96c1b55720d3c7ca15df01d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-wallet-10.0.1_933a1a6a2ab0b38badfe110bf0181b0c362fc3eb.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="ee61ace5f3e488fc610e1c67693c49186a441f32">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-9.6.1_00109191a91c2d601f0ba5be05c43ceae8827a75\classes.dex" />
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_723c9fbb56bbeed6514b12b0ca961218aa46ff96/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-25.0.1_7da7c8e5a65644ecaf12dfa4fdfaf36d50c2de8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_15afda54b4278c5a54a3433145eea07d94dc9cbb.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="79f521967ad7f49b34748db89df02852c2b2f87b">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.6.1_2343dd83161a6ae845ddb66c9ec2a6686847eaf7\classes.dex" />
+        revision="25.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_ccdc66396f9bdcee3cc9d544c56c4eedadf02756/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="47bbb3ec4b31ba71e125241c090dabe70cbb4de7">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.6.1_0d92abdae48191c4e3dbd8abc371e34da51ff17a\classes.dex" />
+        revision="25.0.1"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.0.1_1ed78f7c93e651b9747880dde7e7462a816f99e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-location-10.0.1_b88ea24b03c2294cf06804c2511e7cb33cdaa435.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-25.0.1_0f258b12e11eff1dbd8bcdcfbe722536920f536c.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.6.1_8344c20c8ef4f3da4b2be20c789f8854657fca4b\classes.dex" />
+        revision="25.0.1"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.0.1_56d26f88df52f319767e05fbac143abbd62fa97f/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="6ff796a3173787afe2e712f3aec6f5b99796118e">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.6.1_31779d47c7af523b1d3ffa6d86ef0bbd5cbedbed\classes.dex" />
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_13eb8407d6e2fc823f08ad5ed137f6fd795bb55d/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.6.1_a5d4422fea9a3ac009cac2bd9cdaf0e0c69f156c\classes.dex" />
+        revision="25.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-10.0.1_a9ec9f32a8d4bf3b7044f879ceeaa0159bbb8d83/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-auth-10.0.1_0a5e77e1c6a77f2285d57495c5d5e12a9e29ab79.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.6.1_5cfef6c9a97e0251469572fda4317b7488ff4b28\classes.dex" />
+        revision="25.0.1"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-10.0.1_26b79f3b8b9e1822f7db54980f4096b0cd5ffe11/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-25.0.1_e758e3b1ac1e5ce911e667f99afbe265144bf779.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="c828add497d2b7a3de7c047bf72050cd4b7521a1">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-9.6.1_f00447f5f4f10d439098c5cdf7524df7cd671de6\classes.dex" />
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_9229288e14f9d97b1ea383ca8e9de78a72ca3eba/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="9c0cf3d4f9d7d076f301e110b92e18ae23da12c2">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-9.6.1_076d7e4013c8387a7be78686dda865832b1348f7\classes.dex" />
+        revision="25.0.1"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.0.1_60e285e2b4f2db6661d33621012e63d0b6b2c88c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.android.support-design-25.0.1_f39e4fab4aa76a555dca3e8b428675ff4a861109.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-games-10.0.1_21c3528d52d8ccf6c99167f9caad5f07765a58e0.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_aae68d8f2ff7709810ed0b4ba1cf5d69dd0cba66\classes.dex" />
+        revision="25.0.1"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-10.0.1_85210cb31dba1be074c62de3b4d83142201f55ae/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="d45c048bb1c55cf963899190e507065aea8e5be9">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-9.6.1_3f3bf9354750dde3d0a3810cbfe2c054aa7f80c7\classes.dex" />
+        revision="25.0.1"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.0.1_1868bdbcb4a35b53277319e99ebf096da156f940/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-iid-10.0.1_4f163522bcd8cdcbb840a7447c2bea651f2250d9.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="ad7706f8bb4a985656a8d2142f74021c8b0e03d8">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.6.1_5b9fe81024ce29d4e5ad6abd46c293a7cf9752b8\classes.dex" />
+        revision="25.0.1"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-10.0.1_f145b88662c29da0eaa44cbdf3ca170814a543f9/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="ac8365c87591065db07f7bac8551504504832cd4">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.6.1_06444a0966b9192a64b7bfbeedb28f4b41806e3f\classes.dex" />
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_abf245e28721ec36a96c1b55720d3c7ca15df01d/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.6.1\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
         optimize="true"
-        revision="24.0.1"
-        sha1="ff9be0a1e75a21c372735930d8987a55b5e6065f">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.6.1_d949e79eecb651bade0fc34f573832fe79e425fa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0_5f462c4b97c3645f6e47219e7501a0bf376d4eac\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_8e334047031fec25b1228d26b270687b79ffdf38\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="c4394d46152165cd3256fb711ac94f66a28fbae1">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-9.6.1_3c0df6930bb82236b6a6391e9251c4986e683047\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="df8bac1209ae69835857493406e0dc4b80f681c3">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e5a0db91eb2f990c26cad660242c04e66bbd04bd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f8db47be01cbe8cfa81e9cecce5ff1371ed1ad95">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-9.6.1_df5e9686551c77e77e99ce087a35938e55a4b569\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="526f4b02f1771fa7607ff1b89fe2e9bd0344fee8">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.6.1_a4c0cfafaa95dcd898c827cbf18021b86bd25086\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.6.1_c645444a55f529d8e12603e1bbec571918166d4d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="cf2c4e6607c77b0e671dc5ca252c5ea0d9c1ce0d">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-9.6.1_0d88ef0439744b24397837d1b5466b9cba8c0fc7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="dfcba20b85ef3669a8ced0a8760a6df281cbd7c7">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.6.1_62908826dfd1ee572bb92f9cfee5affa84b2e3b6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="0dfc12e4aacf514346ea866560c99807d032bc48">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.6.1_976b37c6ca06d9e84c24dc3c740d5a108b706f22\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="8c6ef5bd4072f8cda2b89d8356ea7d8acd0683aa">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.6.1_cce1d4079d4ab6c3b2e6b0a46df1979c4ef60f02\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="0e0e0681c26a1f575d3e4c542182dd59bab75fd6">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-9.6.1_e68b15295870c28cffaee410ffbf3708a6940544\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_02a7e9115626e465fc2d2ed8f9f1b52a4965d87e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f0e96478ca3147bc588aadb9ae467d85b42473cc">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-9.6.1_06b8fc0b7869ab609fd983c6f7853653b1709e81\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="ee0ccb43f6ab276191b7f2d77c305fa9beb26db9">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.6.1_5eb3b25dcbd8fe5ec2ebaf92bafb3901bb420c4f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="2a18547ea91d258866d132c2a763185f15b01b25">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.6.1_07aa58389d7d991e35fbe8717cec7b56c5cbd6e3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.6.1_537bf0a035b1684b7c3c4cb098533adee826a1ce\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.6.1_3e4fc5a0cd2eb90e2fa0b3b4a0cf3dc7ee674467\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.0.0_834a8b8696109ede4d8322e6bc10caf7ccc87d2a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="cc39b4bcc9e7062891db90d5a752fa9e4986f447">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.6.1_d12af99b5f62bc3e86375e4348f31967b4f1942f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_6d014a8bda8d0de182fd7549cec0933dd92f07c5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\ArquivosDeProgramas\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_717caf1e2c9b81e78f5831d2fd6be6fd6388905a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\iagobelo\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
+        revision="25.0.1"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_1b8404a3678f45be505606278dbb7153fcb29975\classes.dex" />
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/picasso-2.5.2_41ab7acf275373313adb1f39b9fdb1e29cd0e988.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="518adc52081d41724932b41bc132e4d50a352b86">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.6.1_05a348b2afb8521b1851e87775e0c6fce1027fac\classes.dex" />
+        revision="25.0.1"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-10.0.1_933a1a6a2ab0b38badfe110bf0181b0c362fc3eb/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="62ff84124b89177abc0c27f3e38c9732f2d41617">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.6.1_75545d3ce8b787c3e9ec6ac3c87e18a6de1d66ad\classes.dex" />
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_e28ffdb4f936f399b9b2d3b20ce471f1ffdad342/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="8ebae43cd06058e99e08c8b4d305b72f2b9927c6">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.6.1_ec1afdf43382460385874d3cbaeb398def0b5111\classes.dex" />
+        revision="25.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_8f38ee6d7ce6e923687ff0fc50a3c3c68cfe7b81/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.android.support-mediarouter-v7-24.0.0_e1bd63160f0305e94cd079494bdd511403bdc58f.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="4df40545c9b875855f3dd9d4928e5d07f07c20ba">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.6.1_e9c907f4bb1d45a942de5ea277c040a95c05c83b\classes.dex" />
+        revision="25.0.1"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.0.1_723c92ba1d2b3ccbfe50048c89efb5c3cfb0881c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.6.1_b4c6d566e20f7e811542287b8899c64ff1541876\classes.dex" />
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_8c9512a0f3ad31d73d7f31db6b592fd0ec47a98a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="cdddf21e0a8205e9955661061d1735ed10e44a7b">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-9.6.1_92f3639b76e70d64c176f68b4cd425ca98374d5f\classes.dex" />
+        revision="25.0.1"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_1a7159bf1d627142b76f5339d248e143695719c7/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.6.1\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="a53ac0560ab915a02c50d2e5c7b003381e6fb5e3">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.6.1_2cd110c2dc299486649dad5bfeace189c603281e\classes.dex" />
+        revision="25.0.1"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_18bfe40fc6e5e03337abb1c260e8c6e67e8df59b/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.1_3b7e2ff335fbc2e7c4c24f5cb61871d1d5deb69e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_0f258b12e11eff1dbd8bcdcfbe722536920f536c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
         sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="C:\Users\iagobelo\Documents\Workspace\AndroidProjects\Butuka\Develop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_46b1fcc1dcdd383e30edffb796769161c0bf8eb3\classes.dex" />
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.android.support-palette-v7-24.0.0_f00f3eea59c7c044727fdd92e8c86c1e57dc4d9e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_b0e59ef73eaea459ef9e57319b137257c9897df8/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-gass-10.0.1_60e285e2b4f2db6661d33621012e63d0b6b2c88c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_7ebf3f28ac86486e7527f4c566b0f74e88d906f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.1_b26de5fb1eb5f50d22e210c873b5d0a4b71dedb5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.0.1_6b476b2dc91a4f67390124df4b28502545987e9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-10.0.1_5f9b594acbf92069733567ad8d7374e17507d0c4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.0.1_1ce22f46d660a47704d70eacf565c9eb9267b752/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-10.0.1_cac76febcb934d96e51f58eafffd22622137e2c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-10.0.1_21c3528d52d8ccf6c99167f9caad5f07765a58e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_41ab7acf275373313adb1f39b9fdb1e29cd0e988/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-10.0.1_4f163522bcd8cdcbb840a7447c2bea651f2250d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.1_e14cf30282f1c905c293d5b6d3a51cbca9c9fb52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-10.0.1_c687d0d38cee8db6990662b08154b6e2a4ff6a38/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-10.0.1_fb9b6d6fb7d9dc3436893c0aa27e6187acacaf9c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dc115850b4a3a21958daab62a26f1a6854d530e4">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5c42e258535aada9d4463db4175c7b73fee0d50a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.1_f39e4fab4aa76a555dca3e8b428675ff4a861109/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-10.0.1_71f76c8ca1d279aba4228949e7bc8c4f21626555/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-10.0.1_0a85fa00fb92e59a9199921ff23f2495ea39e978/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-10.0.1_84fe6646c902c1f3c720bfe8a10ff5d901130d98/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-panorama-10.0.1_07ff3ebc4090ff6efc8fae28b746eba0726ab274.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-impl-10.0.1_31affd5721346b168b2beced4eebc695ab0a0e07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-10.0.1_8f38ee6d7ce6e923687ff0fc50a3c3c68cfe7b81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-clearcut-10.0.1_3a0e47c877cc840a16c6348cc35674d977c36f21.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-10.0.1_b84aa497e781e5a31397775bf3263f7a2439fc6d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-10.0.1_842e44867873fa5bdbee4b8ea4da365c754d10d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.0.1_8105fdd3dadde89b9b0667dc383487d8b1d52552/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_abde0be2fe17c30271cacf6ed6b76122d3216da2/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.android.volley-volley-1.0.0_46b0179be3731103381ce3e8ffda32dfda3c960e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-10.0.1_398e74799853c861dfa2a20ae64b177901d5663b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-10.0.1_a31e23078860363637e60eff52c506451a70bc95/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-auth-base-10.0.1_6b476b2dc91a4f67390124df4b28502545987e9a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.1_307dcf83f80905330c9958583c6c66603d46acf5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-10.0.1_61dde5b4ce7a6ec7a063e2a398dc11d1269e2c0d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tagmanager-api-10.0.1_3e899d0f1cf5c950f7c111495789228def6b6cf3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_7ebf3f28ac86486e7527f4c566b0f74e88d906f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tagmanager-10.0.1_fb9b6d6fb7d9dc3436893c0aa27e6187acacaf9c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-10.0.1_07ff3ebc4090ff6efc8fae28b746eba0726ab274/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_15afda54b4278c5a54a3433145eea07d94dc9cbb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_7da7c8e5a65644ecaf12dfa4fdfaf36d50c2de8a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_c57c4c662ea7d8fd507d3416a8e6706821f92515/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-storage-common-10.0.1_24cdcb07b08206391b448b7cb940cc5553fb66a9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b94661671155d59a7d3a2865f6e173841335b0cb">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_aabb6f8ea297a863a4ba4fb4c016aebbaa6cbffe/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-crash-10.0.1_508262103ae828fec570337185469f7ab30f16c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.android.support-support-fragment-25.0.1_33846d36b40e1e660828232adbbb6f91f70c3b94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-lite-10.0.1_d62b1485a979d73741afd6374aacf30f11bb461f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-appindexing-10.0.1_920f5a621d0e86c707e8f03bf5cbee80a631139d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.0.1_103000cf8e1e4528b9384f4c54e7273b3187cc24/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-10.0.1_350b81cb82edb831c23402e65f0355a2b2e4e432/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.0.1_892113d82be9efe1a0331b6f2b4b7d663d8bde5d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_60a4210ba308f7de7713f929826c71e6e22ce167/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-10.0.1_3a0e47c877cc840a16c6348cc35674d977c36f21/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_728ac006d62981e463739b38d2a824f11dfb255a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_2a171ea4c4e167ab84cf75f5522960270e1fb20b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-10.0.1_78268ccc4b91a0ffec565baa5bfa82e6ab10f3c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-10.0.1_2e6055aba25eda432c50d1ddeadac281a279a9b0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.1_2acf4d49e69aa842f673818dada441650e035791/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-10.0.1_bebeb830920d1274c6fbafbaf82af34559b7c0b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-10.0.1_45acefa7f8c58be09744873d7dbed257143e70a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-25.0.1_307dcf83f80905330c9958583c6c66603d46acf5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-maps-10.0.1_0393677578d5f67aa93c996641446944db1bde12.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-10.0.1_1ab8635efe74aca49ac74a1e929df2c99919e6a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.0.1_db7cb7ee88a2165012dc85d20943cded61184acd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_46b0179be3731103381ce3e8ffda32dfda3c960e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-10.0.1_f839d01553d8ebaa4429aaf8b8b4bffdd769df02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-10.0.1_c6eb5f20128997ed4556213fbfac05a75b14269a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_ab97ec0018803c7f1dc8f49ceecc967182836694/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_86a01203bf4b1992e7f18f8cef2c42969a21af95/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-10.0.1_59d4f597e4564950f53a530496798ed821ea2600/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tasks-10.0.1_b2eb42c251bc660c548649c80f821c7778fe89a6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_c227e05fd94db95abcaad4b99bd16bca833f6667/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-appindexing-10.0.1_920f5a621d0e86c707e8f03bf5cbee80a631139d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_e1bd63160f0305e94cd079494bdd511403bdc58f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/gson-2.7_3246222f22c5e5e08d4b4d37874910a6382f7df2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.0.1_24cdcb07b08206391b448b7cb940cc5553fb66a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_2de4d9ef5d23b573e2bcf86ef4bd4dbb8a31704e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a3c15113100232d120a9b71c59bffad3741065a1">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5c3458f9315bdf31f1b473e76065cc08c7688d21/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-nearby-10.0.1_350b81cb82edb831c23402e65f0355a2b2e4e432.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.0.1_eb090c135cb14af4baba7dc01b75fd57e1e2cd06/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_33846d36b40e1e660828232adbbb6f91f70c3b94/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-10.0.1_04b36aa9c4a3376bfb34e2a7e05d15531fb2659f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_66ea781e1c83daab9270cd1809ac0f0d121e73a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_ec7870fd6b2002af29f91b716dd00cc66d1dabfb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.0.1_d62b1485a979d73741afd6374aacf30f11bb461f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/internal_impl-24.0.0_60a4210ba308f7de7713f929826c71e6e22ce167.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_f00f3eea59c7c044727fdd92e8c86c1e57dc4d9e/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-analytics-impl-10.0.1_a2c13b8ad6b2464b44a0de9dc36e49d2b98e8176.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.android.support-support-compat-25.0.1_b0e59ef73eaea459ef9e57319b137257c9897df8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-10.0.1_00da7d5f9ceaed8e296807c541971dc994f701b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_9b49865eb4c142e7b1261db6da202c87c282522c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-cast-framework-10.0.1_9b6575e9282e1cf6b05f4675a8656254ffa17781.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-analytics-10.0.1_78268ccc4b91a0ffec565baa5bfa82e6ab10f3c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-fitness-10.0.1_c6eb5f20128997ed4556213fbfac05a75b14269a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-10.0.1_3d58eb3c019328175e3d985acee838457667aa49/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-identity-10.0.1_5f9b594acbf92069733567ad8d7374e17507d0c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-cast-10.0.1_cac76febcb934d96e51f58eafffd22622137e2c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-database-10.0.1_1ce22f46d660a47704d70eacf565c9eb9267b752.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-config-10.0.1_c687d0d38cee8db6990662b08154b6e2a4ff6a38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-25.0.1_ab97ec0018803c7f1dc8f49ceecc967182836694.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-appindexing-10.0.1_0d34ccb3c66e5e5d2bcbb2781927272eea1bb517/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-gcm-10.0.1_96c2eb617e53321082b4e70449f87462991f89a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.android.support-transition-25.0.1_e14cf30282f1c905c293d5b6d3a51cbca9c9fb52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_c227e05fd94db95abcaad4b99bd16bca833f6667.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_b2eb42c251bc660c548649c80f821c7778fe89a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-storage-10.0.1_0a85fa00fb92e59a9199921ff23f2495ea39e978.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_3246222f22c5e5e08d4b4d37874910a6382f7df2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.0.1_d0797ce48b90851dd774fbadaf7ec4533582168f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-safetynet-10.0.1_13ccbdc0e53bd0af056d087463975903b7bfdfeb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-10.0.1_04b36aa9c4a3376bfb34e2a7e05d15531fb2659f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_64edd67dd215e26fe49cafdd4577fb5d011a6b36/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.0.1_745a530a988454bc8a86a2862681ca8787ab9d61/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_b02d1db866ccf96c7c903d292d11cc623bc0de70/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-10.0.1_ec7870fd6b2002af29f91b716dd00cc66d1dabfb.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.0.1_a5e9a4164985a56719608467c1cda7539bac44e1/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-auth-10.0.1_56d26f88df52f319767e05fbac143abbd62fa97f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.0.1_b88ea24b03c2294cf06804c2511e7cb33cdaa435/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-10.0.1_3bc3280285a7ac8d26ff1b4c425bc19dc1da69b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-10.0.1_a2c13b8ad6b2464b44a0de9dc36e49d2b98e8176/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-10.0.1_e0069a56a8be60a23debe782df216bcff78c6325/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-10.0.1_9b6575e9282e1cf6b05f4675a8656254ffa17781/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_298d0f4125ac1587612a9b1427f457fb971528ff.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.0.1_4664d3cc61ca222cdf8f67b2c068de0822c6e859/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-vision-10.0.1_00da7d5f9ceaed8e296807c541971dc994f701b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-awareness-10.0.1_906fafc8acb5ad7a72078a8dce03e69731e27c5a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_316b9b24bc866d63848426e06f59dc35b77991a7/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-plus-10.0.1_5476706119b0422af0b60a46ccb18d29bc72f600.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_cc2436c93764d346cb2208bde883252d1d7ce393/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-wearable-10.0.1_1ed78f7c93e651b9747880dde7e7462a816f99e4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.0.1_14afe776d154815de994b156ab6fac839774daf9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_9cf03d9b128f04f46cdc60004c16cba2144bda5c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.0.1_0025ff5ec446eae1a58d0e8ef84ceaa1cf52e9a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-iid-10.0.1_3f3198c671cc8ac9fd59c990d7b3d6322ab97153.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-10.0.1_96c2eb617e53321082b4e70449f87462991f89a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-10.0.1_9c3994e21cb2f31fe02e9ec4a89e28709dc14a23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_5740699e23387de491117031e628923cd843be42/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_0fa52186b167aa61910be8ae44a22228a7c86ce3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-10.0.1_efb8b068f355e0ec18027ab9e8035dab3080043f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_b5fca15f23803b842ca900402ec49a5047850a20/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-10.0.1_8664a750cc1f850741a72608cf90c1acfe42a8a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-10.0.1_508262103ae828fec570337185469f7ab30f16c4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-10.0.1_13ccbdc0e53bd0af056d087463975903b7bfdfeb/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-database-connection-10.0.1_745a530a988454bc8a86a2862681ca8787ab9d61.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-10.0.1_5476706119b0422af0b60a46ccb18d29bc72f600/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.android.support-support-core-ui-25.0.1_1e9c3c73a33fca54ff041273bf513217a154ba70.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-10.0.1_d896df36d1e49bfcb44d851367af1efd1463e2a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-appinvite-10.0.1_892113d82be9efe1a0331b6f2b4b7d663d8bde5d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/support-annotations-25.0.1_728ac006d62981e463739b38d2a824f11dfb255a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.0.1_1063a5e0563f60aa3add8f625b8a07e9b46755b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-messaging-10.0.1_4664d3cc61ca222cdf8f67b2c068de0822c6e859.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_b5fca15f23803b842ca900402ec49a5047850a20.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_298d0f4125ac1587612a9b1427f457fb971528ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="68d945e1acc5328f847a91800ea8cfcd5f3e601e">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_02d051efe48f1eca66ec622e1792a20f1374be50/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-common-10.0.1_58d289ed8cacabbc8709e29c38ecb5cb18d0b063.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-10.0.1_31eb9a3448676a811a6decea220e98bfa05c5cd2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_3f3198c671cc8ac9fd59c990d7b3d6322ab97153/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-10.0.1_906fafc8acb5ad7a72078a8dce03e69731e27c5a/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_8d1741e6b2e8bbae92fd9dd8b330e830fb4d6839.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-10.0.1_0393677578d5f67aa93c996641446944db1bde12/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.android.support-support-core-utils-25.0.1_723c9fbb56bbeed6514b12b0ca961218aa46ff96.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-10.0.1_9e4bfdd8c0f3a57be17843594b0b7763fe25dbd0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_2e6055aba25eda432c50d1ddeadac281a279a9b0/classes.dex" />
     </item>
 
 </items>

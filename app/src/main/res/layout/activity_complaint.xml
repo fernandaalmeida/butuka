@@ -4,7 +4,7 @@
     android:id="@+id/activity_complaint"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="butuka.org.butuka.activity.ComplaintActivity">
+    tools:context="org.butuka.activity.ComplaintActivity">
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -81,12 +81,13 @@
                             android:inputType="text" />
                     </android.support.design.widget.TextInputLayout>
 
-                    <!--ImageView
+                    <!-- ImageView
                         android:id="@+id/mapBt"
+                        android:layout_marginTop="16dp"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:src="@mipmap/map_marker"
-                        android:layout_gravity="center_vertical" /-->
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/map_marker" /-->
                 </LinearLayout>
 
                 <LinearLayout

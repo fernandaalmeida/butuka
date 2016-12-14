@@ -1,0 +1,11 @@
+package org.butuka.callback;
+
+/**
+ * Created by iagobelo on 28/09/2016.
+ */
+
+public interface DAOResult {
+    void onSuccess(String s);
+
+    void onFailed(Exception e);
+}

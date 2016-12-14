@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/bg"
-    tools:context="butuka.org.butuka.activity.ResultActivity">
+    tools:context="org.butuka.activity.ResultActivity">
 
     <ImageView
         android:id="@+id/logo"

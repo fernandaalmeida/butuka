@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:contentDescription="application_logo"
-        android:paddingTop="20dp"
+        android:paddingTop="0dp"
         android:src="@mipmap/logo" />
 
     <Button
@@ -28,7 +28,7 @@
         android:id="@+id/rightsBt"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/denuncieBt"
+        android:layout_below="@+id/denuncieBt"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:background="@drawable/direitos_bg"
