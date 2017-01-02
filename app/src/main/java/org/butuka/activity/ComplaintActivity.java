@@ -14,7 +14,7 @@ import com.google.android.gms.maps.model.LatLng;
 
 import org.butuka.R;
 import org.butuka.constant.Constants;
-import org.butuka.model.File;
+import org.butuka.model.FileProp;
 
 public class ComplaintActivity extends AppCompatActivity {
 
@@ -109,7 +109,6 @@ public class ComplaintActivity extends AppCompatActivity {
         mFileNameContainer = (LinearLayout) findViewById(R.id.fileNameContainer);
         //mMapBt = (ImageView) findViewById(R.id.mapBt);
         mFileNameTv = (TextView) findViewById(R.id.fileNameTv);
-
     }
 
     /**
@@ -128,7 +127,7 @@ public class ComplaintActivity extends AppCompatActivity {
                 if (resultCode == RESULT_OK) {
                     mUri = data.getData();
 
-                    mFileNameTv.setText(new File(mUri).getFileName(this));
+                    mFileNameTv.setText(new FileProp(mUri).getFileName(this));
 
                     mFileNameContainer.setVisibility(View.VISIBLE);
                 }

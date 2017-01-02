@@ -9,21 +9,19 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
-import java.io.IOException;
-
 import org.butuka.R;
 import org.butuka.callback.OnCompleteListener;
 import org.butuka.constant.Constants;
 import org.butuka.controller.ComplaintController;
 import org.butuka.model.Complaint;
-import org.butuka.model.File;
+import org.butuka.model.FileProp;
 import org.butuka.model.Task;
 
-import static android.icu.lang.UCharacter.GraphemeClusterBreak.T;
+import java.io.IOException;
 
 public class ResultActivity extends AppCompatActivity {
-
-    public final String TAG = "ResultActivityLog";
+    // TAG
+    private final String TAG = "ResultActivityLog";
 
     private Button mReturnBt;
     private RelativeLayout mSending;
@@ -60,19 +58,14 @@ public class ResultActivity extends AppCompatActivity {
             complaint.setTime(bundle.getString(Constants.KEYS.TIME_KEY));
             complaint.setViolator(bundle.getString(Constants.KEYS.VIOLATOR_KEY));
             complaint.setDescription(bundle.getString(Constants.KEYS.DESCRIPTION_KEY));
-
             String strUri = bundle.getString("uri");
 
+            assert strUri != null;
             if (!strUri.equals("null")) {
-                Uri uri = Uri.parse(strUri);
-                File file = new File(uri);
-
-                try {
-                    complaint.setBase64(file.toBase64(ResultActivity.this));
-                    complaint.setFileMime(file.getMime(ResultActivity.this));
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+                FileProp fileProp = new FileProp(Uri.parse(strUri));
+                complaint.setFileProp(fileProp);
+            } else {
+                complaint.setFileProp(null);
             }
             Log.i(TAG, complaint.toString());
 
@@ -84,11 +77,9 @@ public class ResultActivity extends AppCompatActivity {
                             success();
                         } else {
                             failed();
-                            //Utils.showMessage(ResultActivity.this, task.getException().getMessage());
-                            task.getException().printStackTrace();
                         }
                     }
-                });
+                }, this);
             } catch (IOException e) {
                 e.printStackTrace();
                 failed();
@@ -104,7 +95,7 @@ public class ResultActivity extends AppCompatActivity {
         mSended = (RelativeLayout) findViewById(R.id.successContainer);
         mFailed = (RelativeLayout) findViewById(R.id.failedContainer);
 
-        mComplaintController = ComplaintController.getInstance(this);
+        mComplaintController = ComplaintController.getInstance();
     }
 
     private void success() {

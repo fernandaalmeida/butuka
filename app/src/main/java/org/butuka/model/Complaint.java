@@ -1,24 +1,23 @@
 package org.butuka.model;
 
+import org.butuka.constant.Constants;
+
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
-
-import org.butuka.constant.Constants;
 
 /**
  * Created by iagobelo on 27/09/2016.
  */
 
 public class Complaint implements Serializable {
-    private String location;
-    private String date;
-    private String time;
-    private String violator;
-    private String description;
-    private String base64;
-    private String fileMime;
+    private String location = "";
+    private String date = "";
+    private String time = "";
+    private String violator = "";
+    private String description = "";
+    private FileProp fileProp = null;
 
     public Complaint() {
 
@@ -31,8 +30,6 @@ public class Complaint implements Serializable {
         map.put(Constants.KEYS.TIME_KEY, (time.length() <= 1) ? "null" : time);
         map.put(Constants.KEYS.VIOLATOR_KEY, (violator.length()) <= 1 ? "null" : violator);
         map.put(Constants.KEYS.DESCRIPTION_KEY, (description.length()) <= 1 ? "null" : description);
-        map.put(Constants.KEYS.DATA_KEY, (base64 == null) ? "null" : base64);
-        map.put(Constants.KEYS.MIME_KEY, (fileMime == null) ? "null" : fileMime);
         return map;
     }
 
@@ -44,8 +41,6 @@ public class Complaint implements Serializable {
                 ", time='" + time + '\'' +
                 ", violator='" + violator + '\'' +
                 ", description='" + description + '\'' +
-                ", base64='" + base64 + '\'' +
-                ", fileMime='" + fileMime + '\'' +
                 '}';
     }
 
@@ -89,19 +84,11 @@ public class Complaint implements Serializable {
         this.description = description;
     }
 
-    public String getBase64() {
-        return base64;
+    public FileProp getFileProp() {
+        return fileProp;
     }
 
-    public void setBase64(String base64) {
-        this.base64 = base64;
-    }
-
-    public String getFileMime() {
-        return fileMime;
-    }
-
-    public void setFileMime(String fileMime) {
-        this.fileMime = fileMime;
+    public void setFileProp(FileProp fileProp) {
+        this.fileProp = fileProp;
     }
 }

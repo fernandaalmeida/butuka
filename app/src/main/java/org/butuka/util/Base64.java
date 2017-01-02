@@ -1405,7 +1405,7 @@ public class Base64
     throws java.io.IOException {
         
         if( dataToEncode == null ){
-            throw new NullPointerException( "File to encode was null." );
+            throw new NullPointerException( "FileProp to encode was null." );
         }   // end iff
         
         OutputStream bos = null;
@@ -1488,7 +1488,7 @@ public class Base64
             // Check for size of file_ic
             if( file.length() > Integer.MAX_VALUE )
             {
-                throw new java.io.IOException( "File is too big for this convenience method (" + file.length() + " bytes)." );
+                throw new java.io.IOException( "FileProp is too big for this convenience method (" + file.length() + " bytes)." );
             }   // end if: file_ic too big for int index
             buffer = new byte[ (int)file.length() ];
             

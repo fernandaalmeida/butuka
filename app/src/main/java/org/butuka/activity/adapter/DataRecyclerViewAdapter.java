@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import org.butuka.R;
-import org.butuka.model.File;
+import org.butuka.model.FileProp;
 
 import java.util.List;
 
@@ -16,15 +16,15 @@ import java.util.List;
  */
 
 public class DataRecyclerViewAdapter extends RecyclerView.Adapter<DataRecyclerViewAdapter.ViewHolder> {
-    private List<File> mFileList;
+    private List<FileProp> mFilePropList;
 
     // Provide a suitable constructor (depends on the kind of dataset)
-    public DataRecyclerViewAdapter(List<File> list) {
-        mFileList = list;
+    public DataRecyclerViewAdapter(List<FileProp> list) {
+        mFilePropList = list;
     }
 
-    public void setData(List<File> list) {
-        this.mFileList = list;
+    public void setData(List<FileProp> list) {
+        this.mFilePropList = list;
         notifyDataSetChanged();
     }
 
@@ -45,11 +45,11 @@ public class DataRecyclerViewAdapter extends RecyclerView.Adapter<DataRecyclerVi
     public void onBindViewHolder(ViewHolder holder, final int position) {
         // - get element from your dataset at this position
         // - replace the contents of the view with that element
-        //holder.mTextView.setText(mFileList.get(position).getMime());
+        //holder.mTextView.setText(mFilePropList.get(position).getMime());
         holder.mTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mFileList.remove(position);
+                mFilePropList.remove(position);
                 notifyDataSetChanged();
             }
         });
@@ -58,7 +58,7 @@ public class DataRecyclerViewAdapter extends RecyclerView.Adapter<DataRecyclerVi
     // Return the size of your dataset (invoked by the layout manager)
     @Override
     public int getItemCount() {
-        return mFileList.size();
+        return mFilePropList.size();
     }
 
     // Provide a reference to the views for each data item

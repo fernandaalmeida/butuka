@@ -1,15 +1,26 @@
 package org.butuka.controller;
 
 import android.content.Context;
+import android.net.Uri;
 import android.util.Log;
 
+import org.butuka.callback.OnCompleteListener;
+import org.butuka.model.Complaint;
+import org.butuka.model.FileProp;
+import org.butuka.model.Task;
+import org.butuka.service.ComplaintUploadService;
+import org.butuka.service.ServiceGenerator;
+import org.butuka.util.FileUtils;
+
+import java.io.File;
 import java.io.IOException;
 
-import org.butuka.callback.OnCompleteListener;
-import org.butuka.dao.ComplaintDAO;
-import org.butuka.dao.IComplaintDAO;
-import org.butuka.model.Complaint;
-import org.butuka.model.Task;
+import okhttp3.MediaType;
+import okhttp3.RequestBody;
+import okhttp3.ResponseBody;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 /**
  * Created by iagobelo on 27/09/2016.
@@ -22,24 +33,69 @@ public class ComplaintController {
     private static ComplaintController instance;
     private static String TAG = "ComplaintController";
 
-    private IComplaintDAO mComplaintDAO;
 
-    private ComplaintController(Context context) {
-        mComplaintDAO = ComplaintDAO.getInstance(context);
+    private ComplaintController() {
     }
 
-    public static ComplaintController getInstance(Context context) {
+    public static ComplaintController getInstance() {
         if (instance == null) {
             synchronized (ComplaintController.class) {
                 if (instance == null) {
-                    instance = new ComplaintController(context);
+                    instance = new ComplaintController();
                 }
             }
         }
         return instance;
     }
 
-    public void sendComplaint(Complaint complaint, final OnCompleteListener<Void> listener) throws IOException {
+    public void sendComplaint(Complaint complaint, final OnCompleteListener<Void> listener,
+                              Context context) throws IOException {
+
+        Uri fileUri = complaint.getFileProp().getUri();
+
+        // create upload service client
+        ComplaintUploadService service =
+                ServiceGenerator.createService(ComplaintUploadService.class);
+
+        // https://github.com/iPaulPro/aFileChooser/blob/master/aFileChooser/src/com/ipaulpro/afilechooser/utils/FileUtils.java
+        // use the FileUtils to get the actual file by uri
+        File file = FileUtils.getFile(context, fileUri);
+        FileProp fileProp = new FileProp(fileUri);
+
+        // create RequestBody instance from file
+        RequestBody requestFile =
+                RequestBody.create(MediaType.parse("multipart/form-data"), file);
+
+        // MultipartBody.Part is used to send also the actual file name
+        //MultipartBody.Part body =
+        //        MultipartBody.Part.createFormData("file", file.getName(), requestFile);
+
+        // finally, execute the request
+        Call<ResponseBody> call = service.insertComplaint(
+                complaint.getLocation(),
+                complaint.getDate(),
+                complaint.getTime(),
+                complaint.getViolator(),
+                complaint.getDescription(),
+                fileProp.getMime(context),
+                requestFile);
+        call.enqueue(new Callback<ResponseBody>() {
+            @Override
+            public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+                Log.v("Upload", "success");
+                Log.v("Response", response.message());
+                listener.onComplete(new Task<Void>(true));
+            }
+
+            @Override
+            public void onFailure(Call<ResponseBody> call, Throwable t) {
+                Log.e("Upload error:", t.toString());
+                listener.onComplete(new Task<Void>(false));
+            }
+        });
+    }
+
+    /*public void sendComplaint(Complaint complaint, final OnCompleteListener<Void> listener) throws IOException {
         mComplaintDAO.insertComplaint(complaint, new OnCompleteListener<Integer>() {
             @Override
             public void onComplete(Task<Integer> task) {
@@ -58,5 +114,5 @@ public class ComplaintController {
                 listener.onComplete(new Task<Void>(task));
             }
         });
-    }
+    }*/
 }

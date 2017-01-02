@@ -1,16 +1,22 @@
 package org.butuka.activity;
 
+import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.annotation.NonNull;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import org.butuka.R;
+
+import static android.content.pm.PackageManager.PERMISSION_GRANTED;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -34,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
      * and a change of the status and navigation bar.
      */
     private static final int UI_ANIMATION_DELAY = 300;
+    private static final int PERMISSIONS_REQUEST_CODE = 10;
     private final Handler mHideHandler = new Handler();
     /**
      * Touch listener to use for in-layout UI controls to delay hiding the
@@ -93,6 +100,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        checkPermission();
 
         mComplaintBt = (Button) findViewById(R.id.denuncieBt);
         mComplaintBt.setOnClickListener(new View.OnClickListener() {
@@ -180,5 +189,26 @@ public class MainActivity extends AppCompatActivity {
     private void delayedHide(int delayMillis) {
 //        mHideHandler.removeCallbacks(mHideRunnable);
 //        mHideHandler.postDelayed(mHideRunnable, delayMillis);
+    }
+
+    private void checkPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            String[] permissions = new String[]{
+                    Manifest.permission.READ_EXTERNAL_STORAGE,
+                    Manifest.permission.INTERNET
+            };
+            requestPermissions(permissions, PERMISSIONS_REQUEST_CODE);
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        if (requestCode == PERMISSIONS_REQUEST_CODE) {
+            if (grantResults[0] == PERMISSION_GRANTED && grantResults[1] == PERMISSION_GRANTED) {
+                Toast.makeText(this, "Permissões concedidas com sucesso!", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(this, "Erro ao receber as permissoes, porfavor tente novamente!", Toast.LENGTH_SHORT).show();
+            }
+        }
     }
 }

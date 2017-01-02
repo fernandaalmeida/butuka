@@ -71,7 +71,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private void initMyLocation() {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
                 == PERMISSION_GRANTED) {
-            mMap.setMyLocationEnabled(true);
+            //mMap.setMyLocationEnabled(true);
         } else {
             Utils.showMessage(MapsActivity.this, "Porfavor ative a permissão para utilizar localização.");
 
@@ -84,7 +84,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         if (requestCode == MY_LOCATION_REQUEST_CODE) {
             if (grantResults[0] == PERMISSION_GRANTED && grantResults[1] == PERMISSION_GRANTED) {
                 Utils.showMessage(MapsActivity.this, "Permissões concedidas com sucesso!");

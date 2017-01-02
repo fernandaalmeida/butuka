@@ -111,6 +111,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/libs/ftp4j-1.7.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="abd6a2ba75b142926052c4538611efda49e0b0e2">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/2/ftp4j-1.7.2_eabcb5618f748fdea52c90af9ab23eb942f4ff16/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -369,6 +378,15 @@
         revision="25.0.1"
         sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
         <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-games-10.0.1_21c3528d52d8ccf6c99167f9caad5f07765a58e0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_f95d7f230c3800c65c5d24b08c6ed8de8eb7cef3/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -898,7 +916,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="b94661671155d59a7d3a2865f6e173841335b0cb">
+        sha1="bf7e62ffee0ab26baadb7e395cb60eca3d6e3d97">
         <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_aabb6f8ea297a863a4ba4fb4c016aebbaa6cbffe/classes.dex" />
     </item>
     <item
@@ -1204,7 +1222,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="a3c15113100232d120a9b71c59bffad3741065a1">
+        sha1="db0e1e3a23a4a3ae6e0a6e71b657768aa1df88da">
         <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5c3458f9315bdf31f1b473e76065cc08c7688d21/classes.dex" />
     </item>
     <item
@@ -1215,6 +1233,15 @@
         revision="25.0.1"
         sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
         <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-nearby-10.0.1_350b81cb82edb831c23402e65f0355a2b2e4e432.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_fef655b26651409e89c03346fa3dad45ba7823e6/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1856,6 +1883,15 @@
         <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-messaging-10.0.1_4664d3cc61ca222cdf8f67b2c068de0822c6e859.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_18abd278bb97e7df7defa393e44c11c7f1e4b64e/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.0.1/jars/classes.jar"
         jumboMode="false"
@@ -1926,6 +1962,15 @@
         revision="25.0.1"
         sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
         <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Butuka/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_8d1741e6b2e8bbae92fd9dd8b330e830fb4d6839.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iagobelodeoliveiravieira/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/iagobelodeoliveiravieira/Desktop/Workspace/AndroidProjects/Butuka/Develop/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_0999c8ddf14254dd47c02e510ec5c5f2f36e4a8e/classes.dex" />
     </item>
     <item
         is-multidex="true"
